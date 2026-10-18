@@ -1,0 +1,352 @@
+{
+  "checkedAt": "2026-10-18",
+  "editorialNote": "Situações descritas conforme a data de cada documento. Não se confirmou trânsito em julgado nem atualizações posteriores quando expressamente assinalado.",
+  "cases": [
+    {
+      "id": "br-padre-ze",
+      "title": "Hospital Padre Zé: bens doados desviados e condenação por apropriação",
+      "country": "Brasil · João Pessoa, PB",
+      "date": "2026-02-26",
+      "status": "conden",
+      "statusLabel": "Condenação em primeira instância · trânsito não confirmado",
+      "summary": "Em fevereiro de 2026, o MPPB informou a condenação de Egídio de Carvalho Neto, então dirigente do Hospital Padre Zé, e de Samuel Rodrigues Cunha Segundo por apropriação indébita de 676 bens destinados ao Instituto São José e à Ação Social Arquidiocesana. Os itens, majoritariamente eletrônicos, vieram de doação da Receita Federal. A pena de Egídio foi de cinco anos, seis meses e vinte dias. O juízo fixou reparação material mínima de R$ 525.877,77 e R$ 500 mil de danos morais coletivos, rubricas distintas. O documento não confirma trânsito em julgado.",
+      "facts": [
+        "Ação penal 0809763-06.2023.8.15.2002, 3ª Vara Criminal da Capital.",
+        "Os fatos desta sentença ocorreram entre junho e julho de 2023.",
+        "Em maio de 2026, outra denúncia ligada à operação tornou 16 pessoas rés; isso não é nova condenação."
+      ],
+      "defense": "A nota do MPPB não reproduz a tese defensiva. A cobertura do Terra em 26/02/2026 registrou ausência de resposta da defesa até sua publicação. O site não realizou contato próprio.",
+      "limits": "Esta sentença trata de bens específicos. Não transforma o conjunto de acusações da Operação Indignus em culpa comprovada nem atribui responsabilidade à comunidade católica.",
+      "sources": [
+        {
+          "title": "MPPB · primeira condenação na Operação Indignus",
+          "url": "https://www.mppb.mp.br/index.php/pt/comunicacao/noticias/51-gaeco/72-gaeco/27194-mppb-obtem-1a-condenacao-com-reparacao-de-r-526-mil-ao-instituto-sao-jose-e-asa",
+          "date": "2026-02-26",
+          "type": "primária · Ministério Público"
+        },
+        {
+          "title": "MPPB · recebimento de outra denúncia em maio de 2026",
+          "url": "https://www.mppb.mp.br/index.php/pt/comunicacao/noticias/46-procuradoria-geral/27484-tjpb-recebe-denuncia-do-gaeco-contra-ex-secretarios-e-condena-prefeitos-a-pedido-do-mp",
+          "date": "2026-05-28",
+          "type": "primária · Ministério Público"
+        },
+        {
+          "title": "Terra · condenação e registro de procura à defesa",
+          "url": "https://www.terra.com.br/amp/noticias/justica/padre-e-condenado-a-5-anos-de-prisao-e-tera-que-devolver-mais-de-r-500-mil-por-furto-a-hospital,20af4098bf8fdcc01b3da51e912b44a578nlrikb.html",
+          "date": "2026-02-26",
+          "type": "secundária · imprensa; metadados e excerto verificados"
+        }
+      ],
+      "tags": [
+        "br",
+        "cat",
+        "fin",
+        "conden",
+        "doacoes",
+        "governanca"
+      ]
+    },
+    {
+      "id": "br-mec-pastores",
+      "title": "Pastores no MEC: acesso privilegiado e censura ética mantida",
+      "country": "Brasil · Brasília, DF",
+      "date": "2025-08-25",
+      "status": "administrativo",
+      "statusLabel": "Censura ética · não é condenação criminal",
+      "summary": "A atuação de pastores sem vínculo formal com o Ministério da Educação abriu apurações sobre acesso ao ministro e favorecimento na liberação de recursos. A CGU documentou agendas e investigou a intermediação de interesses privados. Em 28 de abril de 2025, a Comissão de Ética Pública aplicou censura ética a Milton Ribeiro por conflito de interesses; em 25 de agosto, rejeitou a reconsideração. A punição ética deve ser separada das suspeitas criminais de corrupção e tráfico de influência. A documentação selecionada não demonstra condenação penal pelo caso nem permite afirmar que uma propina em ouro tenha sido efetivamente entregue.",
+      "facts": [
+        "Processo ético 00191.000200/2022-86.",
+        "Uma decisão anterior de 2024 foi anulada por questão de intimação; o julgamento foi refeito em 2025.",
+        "A nota técnica da CGU relata apuração preliminar, não sentença judicial."
+      ],
+      "defense": "A defesa nega irregularidades, questiona a licitude da gravação e anunciou que recorreria ao Judiciário contra a censura, que considera arbitrária. Não foi verificado o resultado de eventual ação posterior.",
+      "limits": "Não chamar os envolvidos de condenados por corrupção. Censura ética, investigação criminal, denúncia judicial e condenação pertencem a etapas e esferas distintas.",
+      "sources": [
+        {
+          "title": "CGU · Nota Técnica 1018/2022, juízo de admissibilidade",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/93778/1/Nota_Tecnica_1018_2022_juizo_admissibilidade_Assembleia_Goiania.pdf",
+          "date": "2022",
+          "type": "primária · controle interno"
+        },
+        {
+          "title": "Comissão de Ética Pública · voto sobre reconsideração",
+          "url": "https://www.gov.br/planalto/pt-br/acesso-a-informacao/acoes-e-programas/governanca/etica-publica/reunioes-de-colegiado/Notas-Publicas-e-Extrato-de-Atas/deliberacoes-de-2025/deliberacoes-da-278a-reuniao-ordinaria-da-cep-25-8-2025-1/processo-ndeg-00191-000200_2022-86.pdf",
+          "date": "2025-08-25",
+          "type": "primária · decisão ética; texto indexado verificado"
+        },
+        {
+          "title": "Estadão Conteúdo / Amazonas Atual · decisão e posição da defesa",
+          "url": "https://amazonasatual.com.br/comissao-de-etica-rejeita-recurso-de-ministro-de-bolsonaro-punido-por-gabinete-paralelo/",
+          "date": "2025-08-31",
+          "type": "secundária · imprensa"
+        }
+      ],
+      "tags": [
+        "br",
+        "prot",
+        "fin",
+        "governanca",
+        "administrativo",
+        "recursos-publicos"
+      ]
+    },
+    {
+      "id": "br-irmandades-rio",
+      "title": "Irmandades do Rio: acusação de R$ 12 milhões drenados da caridade",
+      "country": "Brasil · Rio de Janeiro, RJ",
+      "date": "2026-01-21",
+      "status": "denuncia",
+      "statusLabel": "Denúncia recebida · sem condenação confirmada",
+      "summary": "Em janeiro de 2026, o MPRJ anunciou denúncia contra Brígida Rachid José Pedro por suspeita de apropriação indébita e lavagem de cerca de R$ 12 milhões pertencentes a quatro entidades católicas, ao longo de dez anos. Segundo a acusação, a administradora contratou empresa própria para serviços e gestão imobiliária, abrindo um canal de transferência de patrimônio para seu benefício. A Justiça recebeu a denúncia, afastou a acusada e determinou intervenção. Neste caso, as instituições religiosas aparecem como vítimas de quem geria seus bens. O recebimento da acusação não equivale a condenação.",
+      "facts": [
+        "Entre as entidades atingidas estão as irmandades de São Braz e de Nossa Senhora da Conceição e Boa Morte.",
+        "O MPRJ descreve abuso de confiança e contratação de empresa sem empregados registrados.",
+        "A medida de afastamento é cautelar."
+      ],
+      "defense": "Não foi localizada manifestação defensiva nas duas fontes selecionadas. Essa lacuna deve ficar visível; não significa admissão de culpa.",
+      "limits": "R$ 12 milhões é o montante atribuído pela denúncia, não prejuízo definitivamente julgado. Não atribuir a fraude às irmandades vítimas nem generalizar sua ocorrência.",
+      "sources": [
+        {
+          "title": "MPRJ · denúncia e afastamento da administradora",
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=210103",
+          "date": "2026-01-21",
+          "type": "primária · Ministério Público"
+        },
+        {
+          "title": "O Liberal · síntese da acusação",
+          "url": "https://www.oliberal.com/brasil/mulher-e-acusada-de-desviar-r-12-milhoes-de-instituicoes-catolicas-entenda-o-caso-1.1076409",
+          "date": "2026-01-26",
+          "type": "secundária · imprensa"
+        }
+      ],
+      "tags": [
+        "br",
+        "cat",
+        "fin",
+        "denuncia",
+        "governanca",
+        "instituicoes-vitimas"
+      ]
+    },
+    {
+      "id": "caldwell-titulos-chineses",
+      "title": "Kirbyjon Caldwell: títulos sem valor, confiança com preço",
+      "country": "Estados Unidos",
+      "date": "2021-01-13",
+      "updatedAt": "2025-08-10",
+      "verifiedAt": "2026-10-18",
+      "status": "condenacao",
+      "statusLabel": "Condenação penal documentada",
+      "summary": "Em 13 de janeiro de 2021, Kirbyjon Caldwell, ex-pastor da Windsor Village United Methodist Church, recebeu pena de seis anos por conspiração para fraude eletrônica. O DOJ descreveu a venda de títulos chineses históricos apresentados como investimento lucrativo, embora não tivessem valor financeiro além do mercado de colecionismo. Cerca de US$ 3,5 milhões foram captados em 2013–2014. A reportagem de agosto de 2025 registra sua saída da custódia federal e retorno à comunidade. A responsabilidade documentada é do condenado; a fé dos membros e a igreja como coletividade não são rés neste registro.",
+      "facts": [
+        "A sentença impôs restituição de US$ 3.588.500 e multa de US$ 125 mil.",
+        "O DOJ informou que Caldwell recebeu aproximadamente US$ 900 mil do esquema."
+      ],
+      "defense": "Em declaração reproduzida pelo Christian Post em setembro de 2024, a igreja afirmou que houve restituição integral antes da sentença. Essa é a posição institucional relatada, não uma auditoria independente dos pagamentos.",
+      "limits": "Não apresentar como atualmente preso. O valor da restituição fixada na sentença não equivale a saldo ainda devido.",
+      "sources": [
+        {
+          "title": "DOJ: sentença de Caldwell",
+          "url": "https://www.justice.gov/usao-wdla/pr/former-houston-texas-pastor-sentenced-federal-prison-his-role-multimillion-dollar",
+          "date": "2021-01-13",
+          "type": "primaria"
+        },
+        {
+          "title": "Houston Chronicle: retorno após custódia federal",
+          "url": "https://www.houstonchronicle.com/news/houston-texas/religion/article/houston-megachurch-kirbyjon-caldwell-20801604.php",
+          "date": "2025-08-10",
+          "type": "jornalistica"
+        },
+        {
+          "title": "Christian Post: posição da igreja e restituição",
+          "url": "https://www.christianpost.com/news/windsor-village-church-celebrates-release-of-kirbyjon-caldwell.html",
+          "date": "2024-09-09",
+          "type": "jornalistica_com_resposta"
+        }
+      ],
+      "tags": [
+        "fraude",
+        "investimentos",
+        "confiança",
+        "metodista",
+        "condenação"
+      ]
+    },
+    {
+      "id": "ignazio-medina-fundos-paroquiais",
+      "title": "Ignazio Medina: o dinheiro da paróquia na conta pessoal",
+      "country": "Estados Unidos",
+      "date": "2024-12-18",
+      "updatedAt": "2025-01-10",
+      "verifiedAt": "2026-10-18",
+      "status": "condenacao",
+      "statusLabel": "Confissão e sentença penal",
+      "summary": "Em 18 de dezembro de 2024, o padre aposentado Ignazio Medina recebeu três meses de prisão e multa de US$ 7.500 por transportar entre estados recursos roubados da St. Stanislaus Catholic Church, em Wardsville. Declarara-se culpado em julho. O DOJ registrou um cheque de US$ 100 mil enviado à irmã e a admissão de outro, de US$ 200 mil, destinado a si. A investigação identificou uma conta ausente dos relatórios paroquiais. O caso demonstra como a falta de visibilidade contábil pode prejudicar os próprios fiéis; não demonstra responsabilidade coletiva dos católicos.",
+      "facts": [
+        "A condenação divulgada refere-se ao envio dos US$ 100 mil à irmã; o cheque pessoal integra a narrativa admitida.",
+        "O jornal diocesano informou em janeiro de 2025 que os recursos roubados foram devolvidos."
+      ],
+      "defense": "Medina alegou inicialmente que as doações permitiam uso discricionário e que devolvia dinheiro à irmã. Segundo o DOJ, doadores e a própria irmã contrariaram essas explicações.",
+      "limits": "Não afirmar que o padre permanece preso nem confundir o delito da condenação federal com todos os movimentos da conta.",
+      "sources": [
+        {
+          "title": "DOJ: sentença e fatos admitidos por Medina",
+          "url": "https://www.justice.gov/usao-wdmo/pr/priest-sentenced-sending-his-sister-100000-stolen-church-funds",
+          "date": "2024-12-18",
+          "type": "primaria"
+        },
+        {
+          "title": "The Catholic Missourian: devolução dos recursos, página 11",
+          "url": "https://cdn4.creativecirclemedia.com/catholicmissourian/files/20250109-141017-ad1-01-10-25%20print%20edition%20of%20The%20Catholic%20Missourian%20%28compressed%29.pdf",
+          "date": "2025-01-10",
+          "type": "institucional"
+        }
+      ],
+      "tags": [
+        "desvio",
+        "contabilidade",
+        "católica",
+        "condenação",
+        "restituição"
+      ]
+    },
+    {
+      "id": "adrian-davis-all-nations",
+      "title": "Adrian Davis: luxo pessoal pago pela congregação",
+      "country": "Estados Unidos",
+      "date": "2026-02-20",
+      "updatedAt": "2026-02-20",
+      "verifiedAt": "2026-10-18",
+      "status": "condenacao",
+      "statusLabel": "Confissão e sentença penal",
+      "summary": "O ex-pastor Adrian Derrell Davis foi sentenciado a cinco anos de prisão em fevereiro de 2026, após confessar fraude eletrônica e declaração fiscal falsa em outubro de 2025. Segundo o DOJ, desviou cerca de US$ 434.339 da All Nations Worship Assembly, em Huntsville, entre 2018 e 2020. Veículos, pagamentos de cartões e bens de luxo apareceram entre as despesas pessoais não autorizadas pela igreja. O registro documenta a apropriação de recursos de uma congregação por seu dirigente; a própria comunidade religiosa figura como vítima, não como cúmplice coletiva.",
+      "facts": [
+        "A sentença anunciada foi de 60 meses.",
+        "O DOJ também informou prejuízo fiscal de US$ 114.859 por rendimentos omitidos."
+      ],
+      "defense": "Houve reconhecimento de culpa. O comunicado consultado não apresenta uma declaração autônoma da defesa.",
+      "limits": "A fonte comprova a sentença anunciada; não comprova trânsito em julgado nem a situação prisional na data de leitura.",
+      "sources": [
+        {
+          "title": "DOJ: ex-pastor sentenciado por desviar dinheiro da igreja",
+          "url": "https://www.justice.gov/usao-ndal/pr/former-pastor-sentenced-embezzling-local-church",
+          "date": "2026-02-20",
+          "type": "primaria"
+        }
+      ],
+      "tags": [
+        "desvio",
+        "luxo",
+        "fraude fiscal",
+        "condenação",
+        "2026"
+      ]
+    },
+    {
+      "id": "brian-haigler-tesouraria",
+      "title": "Brian Haigler: quando o tesoureiro controla tudo",
+      "country": "Estados Unidos",
+      "date": "2026-02-17",
+      "updatedAt": "2026-02-17",
+      "verifiedAt": "2026-10-18",
+      "status": "condenacao",
+      "statusLabel": "Sentença penal documentada",
+      "summary": "Em 17 de fevereiro de 2026, Brian Shane Haigler recebeu pena de 33 meses por fraude eletrônica. O DOJ descreveu golpes contra investidores, uma igreja e um programa federal de auxílio. Como tesoureiro e único signatário das contas após a morte do pastor, realizou retiradas e cheques que superaram US$ 389 mil. Também obteve empréstimo de US$ 311 mil em nome da igreja sem sua autorização e transferiu US$ 300 mil para a conta pessoal. A congregação foi vítima. O caso torna concreta a necessidade de conciliação independente e autorização compartilhada para movimentar doações.",
+      "facts": [
+        "A sentença incluiu dois anos de supervisão após a prisão.",
+        "Parte do dinheiro retirado da igreja pagou um investidor do esquema."
+      ],
+      "defense": "O comunicado oficial registra declaração de culpa e não inclui uma manifestação autônoma da defesa.",
+      "limits": "Os valores descrevem operações diferentes; não devem ser somados como prejuízo total auditado. A fonte não permite afirmar trânsito em julgado.",
+      "sources": [
+        {
+          "title": "DOJ: sentença por fraude, desvio da igreja e auxílio da pandemia",
+          "url": "https://www.justice.gov/usao-wdnc/pr/mint-hill-sentenced-investment-fraud-embezzlement-church-and-covid-19-relief-fraud",
+          "date": "2026-02-17",
+          "type": "primaria"
+        }
+      ],
+      "tags": [
+        "tesouraria",
+        "desvio",
+        "governança",
+        "pandemia",
+        "2026"
+      ]
+    },
+    {
+      "id": "ior-caloia-imoveis",
+      "title": "IOR e Angelo Caloia: imóveis, desvios e condenação",
+      "country": "Vaticano",
+      "date": "2021-01-21",
+      "updatedAt": "2022-07-21",
+      "verifiedAt": "2026-10-18",
+      "status": "condenacao_definitiva",
+      "statusLabel": "Condenação de Caloia irrevogável",
+      "summary": "O Tribunal do Vaticano condenou em janeiro de 2021 o ex-presidente do IOR Angelo Caloia e o advogado Gabriele Liuzzo por delitos patrimoniais e lavagem ligados à alienação de imóveis. Em 21 de julho de 2022, o recurso confirmou a condenação, reconheceu prescrição de parte das imputações e reduziu a pena de ambos de oito anos e onze meses para oito anos e seis meses. A comunicação oficial declarou irrevogável a condenação de Caloia. O registro mostra responsabilização dentro de uma instituição religiosa e não autoriza acusar indistintamente padres, católicos ou doadores.",
+      "facts": [
+        "A decisão original abrangia vendas de imóveis pertencentes ao IOR e a uma controlada.",
+        "O recurso preservou determinações de confisco e indenização."
+      ],
+      "defense": "Os réus recorreram e obtiveram revisão parcial por prescrição. Esse resultado deve acompanhar qualquer menção à sentença inicial.",
+      "limits": "O caráter irrevogável é atribuído especificamente a Caloia pela fonte. Não confundir este processo com Banco Ambrosiano ou o processo do imóvel de Londres.",
+      "sources": [
+        {
+          "title": "Santa Sé: dispositivo da sentença original",
+          "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2021/01/21/0041/00085.html",
+          "date": "2021-01-21",
+          "type": "primaria"
+        },
+        {
+          "title": "Vatican News: julgamento do recurso e condenação irrevogável de Caloia",
+          "url": "https://www.vaticannews.va/it/vaticano/news/2022-07/ior-appello-condanne-caloia-liuzzo.html",
+          "date": "2022-07-21",
+          "type": "institucional"
+        }
+      ],
+      "tags": [
+        "IOR",
+        "imóveis",
+        "lavagem",
+        "católica",
+        "recurso"
+      ]
+    }
+  ],
+  "corrective": {
+    "id": "limite-dizimo-valido-2026",
+    "title": "Contribuição alta não prova coação: decisão favorável à Universal",
+    "country": "Brasil · STJ",
+    "date": "2026-02-26",
+    "status": "favoravel",
+    "statusLabel": "Contribuição considerada válida pelo STJ",
+    "summary": "Ao contextualizar os casos de coação, deve aparecer também a decisão divulgada pelo STJ em fevereiro de 2026 que manteve com a Universal uma contribuição superior a R$ 100 mil feita por cheque. A discussão era sobre formalidade: a autora pretendia anular o pagamento por ausência de escritura ou instrumento particular. O STJ considerou válido o ato e apontou que o cheque também documentava a contribuição. Isso não revisa os fatos da Fogueira Santa de Foz do Iguaçu: é processo diferente. Mostra que valor elevado e arrependimento, isoladamente, não demonstram fraude ou coação.",
+    "facts": [
+      "REsp 2.216.962/DF.",
+      "Notícia oficial de 26/02/2026; o acórdão foi publicado em dezembro de 2025."
+    ],
+    "defense": "A tese da Universal sobre a validade da contribuição foi acolhida. A autora havia vencido nas instâncias ordinárias pela discussão formal.",
+    "limits": "Não usar esta decisão como absolvição geral da instituição nem como revogação das decisões de coação em outros processos. Ela trata de outra contribuição e de fundamento próprio.",
+    "sources": [
+      {
+        "title": "STJ · dízimo superior a R$ 100 mil considerado válido",
+        "url": "https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/26022026-terceira-turma-considera-valido-dizimo-de-mais-de-r--100-mil-dado-a-igreja-universal-por-meio-de-cheque.aspx",
+        "date": "2026-02-26",
+        "type": "primária · tribunal"
+      },
+      {
+        "title": "STJ · acórdão REsp 2.216.962/DF",
+        "url": "https://processo.stj.jus.br/processo/julgamento/eletronico/documento/?documento_sequencial=351676466&documento_tipo=integra&publicacao_data=20251219&registro_numero=202400526373",
+        "date": "2025-12-19",
+        "type": "primária · acórdão"
+      }
+    ],
+    "tags": [
+      "br",
+      "favoravel",
+      "limites",
+      "doacoes",
+      "universal"
+    ]
+  }
+}
