@@ -1,0 +1,16 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:none;text-size-adjust:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;scroll-behavior:smooth;scroll-padding-top:var(--space-20)}
+body{min-height:100dvh;line-height:1.6;font-family:var(--font-body,sans-serif);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg)}
+img,picture,svg,video{display:block;max-width:100%;height:auto}
+input,button,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0}
+a{color:inherit}
+ul[role=list],ol[role=list]{list-style:none}
+h1,h2,h3,h4{line-height:1.15;text-wrap:balance;overflow-wrap:break-word}
+p,li,td,th{overflow-wrap:break-word}
+table{border-collapse:collapse;width:100%}
+:focus-visible{outline:2px solid var(--color-primary);outline-offset:3px}
+.skip-link{position:absolute;left:var(--space-4);top:-100px;background:var(--color-text);color:var(--color-bg);padding:var(--space-2) var(--space-4);z-index:100;border-radius:var(--radius-sm)}
+.skip-link:focus{top:var(--space-4)}
+.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
