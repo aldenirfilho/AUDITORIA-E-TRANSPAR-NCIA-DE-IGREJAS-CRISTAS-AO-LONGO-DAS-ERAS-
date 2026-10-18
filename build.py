@@ -12,8 +12,12 @@ ROOT = Path(__file__).parent
 SRC = ROOT / "src" / "pages"
 
 PAGES = [
-    ("index", "Início", "Auditoria e transparência de igrejas cristãs ao longo das eras",
-     "Investigação documental sobre dízimos, destino dos recursos, impacto social e casos judiciais envolvendo instituições cristãs, 1926–2026. Fontes primárias, limites explícitos e método público."),
+    ("index", "Início", "Fé não é cheque em branco | Transparência 360 X",
+     "Fé respeitada. Poder fiscalizado. Investigações documentais sobre dinheiro, corrupção e prestação de contas em instituições cristãs. Edição Turbo TEMI 360X."),
+    ("investigacoes", "Investigações", "Dinheiro sob investigação | Dossiês 360 X",
+     "Novos dossiês sobre fraude, desvio e governança: decisões, documentos oficiais, contraditório e limites de cada caso. Fiscalizar instituições é respeitar quem acredita."),
+    ("imagens", "Imagens", "Turbo X Profânico | 10 imagens sobre fé, dinheiro e poder",
+     "Coleção de 10 ilustrações editoriais com IA. Frases diretas, contraste e metáforas visuais sobre transparência. Respeito aos fiéis e crítica ao abuso de poder."),
     ("dizimos", "Dízimos", "Para onde vai o dinheiro dos dízimos",
      "Balanços publicados por Mitra de São Paulo, IPB, Uniões adventistas, Óbolo de São Pedro, Fundo de Solidariedade de Fortaleza, Santos dos Últimos Dias e Universal: valores, categorias de despesa e limites de leitura."),
     ("impacto", "Impacto", "Destino dos recursos e potencial de impacto",
@@ -25,7 +29,7 @@ PAGES = [
     ("metodo", "Método", "Método de auditoria cívica",
      "Critérios, documentos a exigir, matriz de afirmações e provas, erros a evitar, glossário jurídico e modelo de pedido de informação."),
     ("fontes", "Fontes", "Fontes e documentos",
-     "Lista completa de documentos primários citados no projeto, com links diretos, emissor e data."),
+     "Fontes primárias, institucionais e jornalísticas citadas no projeto, com links diretos, emissor e data."),
 ]
 
 HEAD = """<!DOCTYPE html>
@@ -39,22 +43,23 @@ HEAD = """<!DOCTYPE html>
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f1b17'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' text-anchor='middle' fill='%23f3efe6'%3EA%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://api.fontshare.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#101217">
+<meta property="og:image" content="https://aldenirfilho.github.io/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/assets/capa-transparencia-360x.jpg">
+<meta property="og:image:alt" content="Ilustração editorial de arquitetura e documentos financeiros sob luz vermelha">
+<link rel="canonical" href="https://aldenirfilho.github.io/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/{slug}.html">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="./base.css">
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./turbo.css">
 </head>
-<body>
+<body data-page="{slug}">
 <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<div class="edition-bar"><div class="wrap edition-bar__inner"><span><i aria-hidden="true"></i> INDEPENDÊNCIA EDITORIAL · EDIÇÃO 360 X</span><a href="./metodo.html#pacto">Fé respeitada. Poder fiscalizado. ↗</a></div></div>
 <header class="header">
   <div class="wrap header__inner">
     <a class="brand" href="./index.html">
-      <span class="brand__mark">Auditoria de Igrejas</span>
-      <span class="brand__sub">1926–2026 · projeto cívico</span>
+      <span class="brand__icon" aria-hidden="true">360<span>X</span></span>
+      <span><span class="brand__mark">TRANSPARÊNCIA</span><span class="brand__sub">Igrejas · dinheiro · poder</span></span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -64,6 +69,7 @@ HEAD = """<!DOCTYPE html>
     </nav>
   </div>
 </header>
+<div class="reading-progress" aria-hidden="true"><span></span></div>
 <main id="conteudo">
 """
 
@@ -71,13 +77,15 @@ FOOT = """</main>
 <footer class="footer">
   <div class="wrap footer__grid">
     <div>
-      <span class="brand__mark">Auditoria de Igrejas Cristãs</span>
-      <p style="margin-top:var(--space-3);max-width:52ch">Projeto cívico e social de investigação documental. Cada número vem acompanhado da fonte primária, do perímetro que cobre e do que ele não demonstra. Última revisão das pesquisas: 18 de outubro de 2026.</p>
+      <span class="brand__mark">FÉ RESPEITADA.<br>PODER FISCALIZADO.</span>
+      <p style="margin-top:var(--space-4);max-width:52ch">Auditoria e Transparência de Igrejas Cristãs. Projeto cívico de investigação documental. A crítica recai sobre atos, decisões e estruturas de poder; a dignidade dos fiéis é inegociável.</p>
+      <p class="xs" style="margin-top:var(--space-3)">Turbo TEMI 360X · Edição de 18 de outubro de 2026. Cada ficha informa a data do documento que sustenta seu status. A data da edição não certifica atualização integral de todos os processos.</p>
       <p style="margin-top:var(--space-3)"><a href="https://github.com/aldenirfilho/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-" target="_blank" rel="noopener noreferrer">Repositório no GitHub</a> · Autor: Aldenir Rocha de Oliveira Filho</p>
     </div>
     <div>
       <p class="kicker" style="color:var(--color-text-muted)">Eixos</p>
       <ul>
+        <li><a href="./investigacoes.html">Novas investigações documentadas</a></li>
         <li><a href="./dizimos.html">Para onde vai o dízimo</a></li>
         <li><a href="./impacto.html">Impacto social e ambiental</a></li>
         <li><a href="./casos.html">Fé, dinheiro e enriquecimento</a></li>
@@ -87,14 +95,15 @@ FOOT = """</main>
     <div>
       <p class="kicker" style="color:var(--color-text-muted)">Apoio</p>
       <ul>
-        <li><a href="./metodo.html">Método e critérios</a></li>
+        <li><a href="./metodo.html#pacto">Pacto editorial e correções</a></li>
+        <li><a href="./metodo.html#protecao">Proteção contra exploração financeira</a></li>
         <li><a href="./metodo.html#pedido">Modelo de pedido de informação</a></li>
         <li><a href="./fontes.html">Todas as fontes</a></li>
       </ul>
     </div>
   </div>
   <div class="wrap" style="margin-top:var(--space-10);padding-top:var(--space-5);border-top:1px solid var(--color-border)">
-    <p class="xs">Nada aqui constitui acusação criminal, parecer jurídico ou auditoria contábil das transações individuais. Arquivamentos, absolvições e prescrições são registrados ao lado de cada denúncia. Ausência de dado publicado não é evidência de desvio.</p>
+    <p class="xs">Pesquisa documental pública, com fontes rastreáveis. Não substitui auditoria contábil nem decisão judicial. Arrecadação, patrimônio, prejuízo e multa têm significados distintos. Ausência de dado publicado não é evidência de desvio.</p>
   </div>
 </footer>
 <script src="./app.js" defer></script>
@@ -114,7 +123,7 @@ def nav_html(current):
 def main():
     for slug, label, title, desc in PAGES:
         body = (SRC / f"{slug}.html").read_text(encoding="utf-8")
-        page = HEAD.format(title=html.escape(title), desc=html.escape(desc), nav=nav_html(slug)) + body + FOOT
+        page = HEAD.format(title=html.escape(title), desc=html.escape(desc), nav=nav_html(slug), slug=slug) + body + FOOT
         (ROOT / f"{slug}.html").write_text(page, encoding="utf-8")
         print("ok", slug)
 

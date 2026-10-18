@@ -35,3 +35,23 @@ Regras editoriais em [`.github/copilot-instructions.md`](.github/copilot-instruc
 5. Ausência de dado publicado não é evidência de desvio.
 
 Data de revisão das pesquisas: **18 de outubro de 2026**. Autor: Aldenir Rocha de Oliveira Filho.
+
+## Edição Turbo TEMI 360X / Turbo X Profânico
+
+Oito novos dossiês em `investigacoes.html`, com dados em `src/data/investigacoes.json`, e uma coleção de dez ilustrações em `imagens.html`. O tema usa fontes locais do sistema e arquivos próprios, sem telemetria ou APIs em execução.
+
+- [Auditoria e validação](docs/AUDITORIA-2026-10-18.md)
+- [Visão geral da coleção](docs/colecao-visual.html)
+- [Prompts e origem das imagens](docs/prompts-turbo-x-profanico.json)
+- [Manifesto de arquivos e hashes](assets/profanico/manifest.json)
+
+Após editar, execute:
+
+```bash
+python3 build.py
+python3 scripts/validate.py
+node --check app.js
+git diff --check
+```
+
+Os HTML da raiz devem corresponder às fontes. A data da edição não certifica atualização integral dos processos históricos. Revisão editorial humana e comparação visual antes/depois precedem o merge e a publicação.
