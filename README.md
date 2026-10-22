@@ -18,6 +18,7 @@ Site público (GitHub Pages): https://aldenirfilho.github.io/AUDITORIA-E-TRANSPA
 | `panorama.html` | 30 dossiês, 1926–2026, filtráveis por tradição e situação |
 | `metodo.html` | Matriz de afirmações e provas, glossário jurídico, documentos a exigir e modelo de pedido de informação |
 | `fontes.html` | Documentos primários, institucionais e jornalísticos com URL, emissor e data |
+| `auditoria-evangelica-360/` | Painel interativo: cinco casos com estágio judicial e defesa, escala E1–E5, livro-razão, patrimônio × orçamento de Sobral e canais de denúncia |
 | `imagens.html` | Coleção editorial Turbo TEMI 360X sobre fé, dinheiro, poder e transparência |
 
 ## Cenário atual 2026
