@@ -19,6 +19,57 @@
     });
   }
 
+  // Integração 360X: novas páginas em todos os HTML já publicados.
+  function ensureNavLink(href, label, afterHref) {
+    if (!nav || nav.querySelector('a[href="' + href + '"]')) return;
+    var link = document.createElement('a');
+    link.href = href;
+    link.textContent = label;
+    if (document.body.getAttribute('data-page') === href.replace('./', '').replace('.html', '')) {
+      link.setAttribute('aria-current', 'page');
+    }
+    var anchor = nav.querySelector('a[href="' + afterHref + '"]');
+    if (anchor && anchor.nextSibling) nav.insertBefore(link, anchor.nextSibling);
+    else if (anchor) nav.appendChild(link);
+    else nav.appendChild(link);
+  }
+  ensureNavLink('./cenario-atual.html', 'Cenário 2026', './index.html');
+  ensureNavLink('./agentes.html', 'Agentes 360', './cenario-atual.html');
+
+  document.querySelectorAll('.edition-number').forEach(function (el) {
+    el.innerHTML = 'TURBO TEMI 360X<br>EDIÇÃO 22.10.2026';
+  });
+  document.querySelectorAll('.footer .xs').forEach(function (el) {
+    if (el.textContent.indexOf('Edição de 18 de outubro de 2026') !== -1) {
+      el.textContent = el.textContent.replace('Edição de 18 de outubro de 2026', 'Edição revisada em 22 de outubro de 2026');
+    }
+  });
+
+  var footerLists = document.querySelectorAll('.footer ul');
+  if (footerLists.length) {
+    var footerAxis = footerLists[0];
+    function footerLink(href, label) {
+      if (footerAxis.querySelector('a[href="' + href + '"]')) return;
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = href;
+      a.textContent = label;
+      li.appendChild(a);
+      footerAxis.insertBefore(li, footerAxis.firstChild);
+    }
+    footerLink('./agentes.html', 'Arquitetura de agentes 360');
+    footerLink('./cenario-atual.html', 'Cenário atual 2026');
+  }
+
+  if (document.body.getAttribute('data-page') === 'index' && !document.getElementById('cenario-2026-home')) {
+    var focus = document.getElementById('em-foco');
+    var section = document.createElement('section');
+    section.className = 'section section--offset';
+    section.id = 'cenario-2026-home';
+    section.innerHTML = '<div class="wrap"><div class="section-heading"><div><span class="kicker">Atualização nacional · 22.10.2026</span><h2 class="title">47,4 milhões de evangélicos. Nenhuma licença para opacidade.</h2></div><a class="section-link" href="./cenario-atual.html">Abrir o cenário atual ↗</a></div><div class="route-grid"><a class="route" href="./cenario-atual.html"><span class="route__number">CENÁRIO 2026</span><h3>Dimensão, regras e lacunas.</h3><p>Demografia do IBGE, regime jurídico, imunidade tributária, riscos de governança e prioridades de auditoria.</p><span>Ler a síntese documental →</span></a><a class="route" href="./agentes.html"><span class="route__number">AGENTES 360</span><h3>Investigar sem perseguir.</h3><p>Quatorze agentes para catalogar entidades, seguir dinheiro, medir impacto, garantir contraditório e revisar evidências.</p><span>Conhecer a arquitetura →</span></a><div class="route"><span class="route__number">REGRA CENTRAL</span><h3>O setor não é uma pessoa jurídica única.</h3><p>Cada CNPJ, dirigente, processo, exercício, valor e resposta institucional precisa ser analisado separadamente.</p><span>Evidência antes da acusação.</span></div><div class="route"><span class="route__number">DADO OFICIAL</span><h3>47.418.024 pessoas.</h3><p>População evangélica de 10 anos ou mais no Panorama do Censo 2022. Demografia não é auditoria financeira.</p><span>Fonte: IBGE.</span></div></div></div>';
+    if (focus && focus.parentNode) focus.parentNode.insertBefore(section, focus);
+  }
+
   // Reveal on scroll
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
@@ -88,7 +139,7 @@
       var steps = [1e6, 2e6, 5e6, 1e7, 2e7, 5e7, 1e8, 2e8, 5e8];
       var budget = steps[parseInt(range.value, 10)];
       budgetOut.textContent = fmtBRL(budget);
-      // US$1 = R$5 hypothetical; cost per death averted US$3,500–5,500 => R$17,500–27,500
+      // US$1 = R$5 hipotético; custo por morte evitada US$3.500–5.500 => R$17.500–27.500
       var lo = budget / 27500, hi = budget / 17500;
       var ha = budget / 19000;
       if (mode === 'health') {
