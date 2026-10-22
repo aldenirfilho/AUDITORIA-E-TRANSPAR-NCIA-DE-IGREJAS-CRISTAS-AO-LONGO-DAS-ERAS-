@@ -19,7 +19,7 @@ Site público (GitHub Pages): https://aldenirfilho.github.io/AUDITORIA-E-TRANSPA
 | `metodo.html` | Matriz de afirmações e provas, glossário jurídico, documentos a exigir e modelo de pedido de informação |
 | `fontes.html` | Documentos primários, institucionais e jornalísticos com URL, emissor e data |
 | `auditoria-evangelica-360/` | Painel interativo: cinco casos com estágio judicial e defesa, escala E1–E5, livro-razão, patrimônio × orçamento de Sobral e canais de denúncia |
-| `tesouro-sud-360x/` | Painel interativo: reservas estimadas da Igreja SUD × caridade declarada, em escala; régua com orçamentos brasileiros; conversor hipotético (saúde, educação, habitação, segurança); ressalvas, contraditório e 21 fontes |
+| `tesouro-sud-360x/` | Painel interativo: reservas estimadas da Igreja SUD × caridade declarada, em escala; régua com orçamentos brasileiros; conversor hipotético (saúde, educação, habitação, segurança); ressalvas, contraditório e 21 fontes. Inclui `ponderacao.html`: países, bolsa, ouro, espécies, pessoas e a pergunta sobre fé e mercado |
 | `imagens.html` | Coleção editorial Turbo TEMI 360X sobre fé, dinheiro, poder e transparência |
 
 ## Cenário atual 2026
@@ -72,6 +72,8 @@ Data de revisão estrutural: **22 de outubro de 2026**. Autor: Aldenir Rocha de 
 ## Auditoria do Tesouro SUD 360X
 
 Painel em [`tesouro-sud-360x/`](tesouro-sud-360x/), dados de 22/10/2026. Compara a carteira de ações declarada à SEC pela Ensign Peak (oficial), as estimativas independentes de reservas e ativos do Widow's Mite Report e o Caring Report 2025 publicado pela própria Igreja. A régua coloca esses valores ao lado da LOA 2026 (Saúde e Educação) e do gasto nacional com segurança pública em 2025, convertidos a R$ 5,00 por dólar apenas para comparação.
+
+A página complementar [`tesouro-sud-360x/ponderacao.html`](tesouro-sud-360x/ponderacao.html) compara o tesouro com o PIB de 185 economias (Banco Mundial, 2023), com a B3 e com o ouro; estima quantas espécies ameaçadas e pessoas ele poderia ajudar; confere sete afirmações sobre liquidez e realidade do dinheiro em ações; e apresenta os dois lados da pergunta "é digno de uma religião investir na bolsa?".
 
 O conversor é um exercício hipotético: não existe mecanismo legal para converter patrimônio privado de entidade religiosa. A página separa dado oficial de estimativa, explicita seis ressalvas e apresenta lado a lado as posições da Igreja e dos críticos, sem veredito.
 
