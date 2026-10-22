@@ -14,6 +14,10 @@ SRC = ROOT / "src" / "pages"
 PAGES = [
     ("index", "Início", "Fé não é cheque em branco | Transparência 360 X",
      "Fé respeitada. Poder fiscalizado. Investigações documentais sobre dinheiro, corrupção e prestação de contas em instituições cristãs. Edição Turbo TEMI 360X."),
+    ("cenario-atual", "Cenário 2026", "Igrejas evangélicas no Brasil: cenário atual",
+     "Dimensão social, regime jurídico, imunidade tributária, riscos de governança, lacunas de transparência e prioridades de auditoria das organizações evangélicas brasileiras."),
+    ("agentes", "Agentes 360", "Arquitetura de agentes | Auditoria Religiosa 360",
+     "Quatorze agentes para catalogação institucional, auditoria financeira, investigação judicial, impacto social, contraditório e controle de qualidade."),
     ("investigacoes", "Investigações", "Dinheiro sob investigação | Dossiês 360 X",
      "Novos dossiês sobre fraude, desvio e governança: decisões, documentos oficiais, contraditório e limites de cada caso. Fiscalizar instituições é respeitar quem acredita."),
     ("imagens", "Imagens", "Turbo X Profânico | 10 imagens sobre fé, dinheiro e poder",
@@ -79,12 +83,14 @@ FOOT = """</main>
     <div>
       <span class="brand__mark">FÉ RESPEITADA.<br>PODER FISCALIZADO.</span>
       <p style="margin-top:var(--space-4);max-width:52ch">Auditoria e Transparência de Igrejas Cristãs. Projeto cívico de investigação documental. A crítica recai sobre atos, decisões e estruturas de poder; a dignidade dos fiéis é inegociável.</p>
-      <p class="xs" style="margin-top:var(--space-3)">Turbo TEMI 360X · Edição de 18 de outubro de 2026. Cada ficha informa a data do documento que sustenta seu status. A data da edição não certifica atualização integral de todos os processos.</p>
+      <p class="xs" style="margin-top:var(--space-3)">Turbo TEMI 360X · Edição revisada em 22 de outubro de 2026. Cada ficha informa a data do documento que sustenta seu status. A data da edição não certifica atualização integral de todos os processos.</p>
       <p style="margin-top:var(--space-3)"><a href="https://github.com/aldenirfilho/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-" target="_blank" rel="noopener noreferrer">Repositório no GitHub</a> · Autor: Aldenir Rocha de Oliveira Filho</p>
     </div>
     <div>
       <p class="kicker" style="color:var(--color-text-muted)">Eixos</p>
       <ul>
+        <li><a href="./cenario-atual.html">Cenário atual 2026</a></li>
+        <li><a href="./agentes.html">Arquitetura de agentes 360</a></li>
         <li><a href="./investigacoes.html">Novas investigações documentadas</a></li>
         <li><a href="./dizimos.html">Para onde vai o dízimo</a></li>
         <li><a href="./impacto.html">Impacto social e ambiental</a></li>
