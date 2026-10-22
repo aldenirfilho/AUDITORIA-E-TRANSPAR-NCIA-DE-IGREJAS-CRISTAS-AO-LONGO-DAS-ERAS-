@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Auditoria Evangélica Brasil 360 · Transparência 360X</title>
+<meta name="description" content="Painel sobre fraude financeira com uso da fé no Brasil: casos com estágio judicial, versão da defesa e fontes, escala de evidência, patrimônio × orçamento de Sobral e canais de denúncia.">
+<link rel="canonical" href="https://aldenirfilho.github.io/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/auditoria-evangelica-360/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Transparência 360X · Igrejas">
+<meta property="og:title" content="Auditoria Evangélica Brasil 360">
+<meta property="og:description" content="Cinco casos com estágio judicial, defesa e fontes. Patrimônio de líderes religiosos × gasto público de Sobral. Como reconhecer golpes que usam a fé.">
+<meta property="og:url" content="https://aldenirfilho.github.io/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/auditoria-evangelica-360/">
+<meta property="og:image" content="https://aldenirfilho.github.io/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/auditoria-evangelica-360/og-auditoria-evangelica-360.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Brasão com balança e livro aberto e o título Auditoria Evangélica Brasil 360">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0d10">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=JetBrains+Mono:wght@400;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: códice de coluna única (~68ch) com rubrica de fólio na margem esquerda; brasão no frontispício;
+   selos de cera para o nível de evidência; livro-razão de quatro colunas que nunca se somam. */
+:root{
+  --bg:#e8e2d1; --surface:#f3eee0; --surface-2:#ddd5bf; --ink:#191b1d; --ink-soft:#4a4c4b; --rule:#b9ae8e;
+  --gold:#74540a; --gold-bright:#a97f1c; --cyan:#0a5f68; --cyan-soft:#cfe0dc;
+  --e5:#8c1c13; --e4:#8f4308; --e3:#6a5200; --e12:#565857; --d:#1a6139;
+  --viz-wealth:#a97f1c; --viz-public:#1279a6;
+  --font-display:"Cinzel","Trajan Pro","Times New Roman",serif;
+  --font-body:"Spectral","Iowan Old Style",Georgia,serif;
+  --font-data:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --measure:68ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0d10; --surface:#13171c; --surface-2:#1c2128; --ink:#ebe5d5; --ink-soft:#a9a597; --rule:#2f363e;
+    --gold:#d6b160; --gold-bright:#e8c97a; --cyan:#62d4dd; --cyan-soft:#12313a;
+    --e5:#ff9384; --e4:#f3a55c; --e3:#e3c556; --e12:#9c9e9b; --d:#7fd9a3;
+    --viz-wealth:#b08a2e; --viz-public:#2f9fc9;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0d10; --surface:#13171c; --surface-2:#1c2128; --ink:#ebe5d5; --ink-soft:#a9a597; --rule:#2f363e;
+  --gold:#d6b160; --gold-bright:#e8c97a; --cyan:#62d4dd; --cyan-soft:#12313a;
+  --e5:#ff9384; --e4:#f3a55c; --e3:#e3c556; --e12:#9c9e9b; --d:#7fd9a3;
+    --viz-wealth:#b08a2e; --viz-public:#2f9fc9;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;margin:0}
+a{color:var(--cyan);text-underline-offset:.18em}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;margin:0}
+p{margin:0}
+strong{font-weight:600}
+
+/* ---------- barra de navegação ---------- */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--rule)}
+.topbar-inner{max-width:72rem;margin:0 auto;padding-inline:1rem;display:flex;gap:1rem;align-items:center}
+.brand{font-family:var(--font-display);font-weight:700;font-size:.8rem;letter-spacing:.14em;color:var(--gold);white-space:nowrap;padding-block:.7rem}
+.navlinks{display:flex;gap:.25rem;overflow-x:auto;min-width:0;scrollbar-width:thin}
+.navlinks a{font-family:var(--font-data);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--ink-soft);padding:.75rem .55rem;white-space:nowrap}
+.navlinks a:hover{color:var(--cyan)}
+
+/* ---------- moldura do códice ---------- */
+.codex{max-width:72rem;margin:0 auto;padding-inline:1rem;padding-block:2rem 4rem;display:flex;flex-direction:column;gap:3.5rem}
+.label{font-family:var(--font-data);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* frontispício */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 15rem;gap:2.5rem;align-items:center;padding-block:1.5rem 2.5rem;border-bottom:3px double var(--gold-bright)}
+.hero-text{display:flex;flex-direction:column;gap:1.1rem;min-width:0}
+.hero h1{font-family:var(--font-display);font-weight:700;font-size:clamp(1.9rem,5.2vw,3.3rem);line-height:1.08;letter-spacing:.02em}
+.hero h1 .n360{color:var(--cyan)}
+.lead{font-size:1.2rem;line-height:1.5;max-width:60ch}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin:0;padding-top:1rem;border-top:1px solid var(--rule)}
+.facts div{display:flex;flex-direction:column;gap:.2rem;min-width:0}
+.facts dt{font-family:var(--font-data);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.facts dd{margin:0;font-size:.95rem;line-height:1.4}
+.facts dd b{font-family:var(--font-data);font-size:1.15rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.brasao{display:flex;flex-direction:column;align-items:center;gap:.6rem}
+.brasao svg{width:100%;max-width:15rem;height:auto}
+.bz-field{fill:var(--surface);stroke:var(--gold-bright);stroke-width:3}
+.bz-inner{fill:none;stroke:var(--gold);stroke-width:1}
+.bz-cy{fill:none;stroke:var(--cyan);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.bz-gd{fill:none;stroke:var(--gold-bright);stroke-width:2;stroke-linejoin:round}
+.bz-node{fill:var(--cyan);stroke:none}
+.motto{font-family:var(--font-display);font-size:.78rem;letter-spacing:.3em;color:var(--gold);text-align:center}
+
+/* fólios */
+.folio{display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:2rem;scroll-margin-top:4rem}
+.folio-mark{display:flex;flex-direction:column;gap:.3rem;padding-top:.45rem;border-top:1px solid var(--gold-bright);align-self:start}
+.folio-num{font-family:var(--font-display);font-weight:700;font-size:.82rem;letter-spacing:.18em;color:var(--gold)}
+.folio-body{display:flex;flex-direction:column;gap:1.25rem;min-width:0}
+.folio-body > h2{font-family:var(--font-display);font-weight:700;font-size:clamp(1.35rem,3vw,1.75rem);line-height:1.2;letter-spacing:.02em}
+.folio-body > p, .prose{max-width:var(--measure)}
+.note{font-size:.92rem;color:var(--ink-soft);max-width:var(--measure)}
+
+/* princípios */
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem 2.5rem;margin:0;padding:0;list-style:none}
+.rules li{display:flex;flex-direction:column;gap:.3rem;padding-top:.8rem;border-top:1px solid var(--rule);min-width:0}
+.rules h3{font-size:1.08rem;font-weight:600}
+.rules p{font-size:.98rem}
+
+/* selos de evidência */
+.seal{display:inline-grid;place-items:center;flex:none;width:2.5rem;height:2.5rem;border-radius:50%;border:2px solid currentColor;outline:1px solid currentColor;outline-offset:2px;font-family:var(--font-data);font-weight:700;font-size:.82rem;background:var(--surface)}
+.seal.e5{color:var(--e5)} .seal.e4{color:var(--e4)} .seal.e3{color:var(--e3)} .seal.e2,.seal.e1{color:var(--e12)} .seal.d{color:var(--d)}
+.scale{display:flex;flex-direction:column;margin:0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.scale li{display:grid;grid-template-columns:3rem minmax(0,1fr);gap:1rem;align-items:center;padding-block:.8rem;border-bottom:1px solid var(--rule)}
+.scale b{font-weight:600}
+.scale span.use{display:block;font-size:.9rem;color:var(--ink-soft)}
+
+/* tipos e percurso */
+.types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.type{background:var(--surface);border:1px solid var(--rule);border-top:3px double var(--gold-bright);padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.5rem;min-width:0}
+.type .letter{font-family:var(--font-display);font-weight:700;font-size:1.5rem;color:var(--cyan);line-height:1}
+.type h3{font-size:1.05rem;font-weight:600}
+.type p{font-size:.93rem}
+.path{margin:0;padding:0;list-style:none;counter-reset:st;display:flex;flex-direction:column}
+.path li{counter-increment:st;display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:1rem;padding-bottom:1.15rem;position:relative}
+.path li::before{content:counter(st);display:grid;place-items:center;width:2.2rem;height:2.2rem;border:1px solid var(--gold-bright);background:var(--bg);font-family:var(--font-data);font-weight:700;font-size:.85rem;color:var(--gold);z-index:1}
+.path li::after{content:"";position:absolute;left:1.1rem;top:2.4rem;bottom:0;width:1px;background:var(--rule)}
+.path li:last-child{padding-bottom:0}
+.path li:last-child::after{display:none}
+.path .st{display:flex;flex-direction:column;gap:.15rem;min-width:0}
+.path h3{font-size:1.05rem;font-weight:600}
+.path p{font-size:.96rem;max-width:var(--measure)}
+.src-tag{font-family:var(--font-data);font-size:.7rem;letter-spacing:.04em;color:var(--ink-soft)}
+.aside{background:var(--cyan-soft);border:1px solid var(--rule);padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.4rem;max-width:var(--measure)}
+.aside h3{font-family:var(--font-display);font-size:.95rem;letter-spacing:.06em}
+.aside p{font-size:.95rem}
+
+/* sinais de alerta */
+.flags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem 1.5rem;margin:0;padding:0;list-style:none}
+.flags label{display:grid;grid-template-columns:1.3rem minmax(0,1fr);gap:.6rem;align-items:start;padding:.45rem 0;cursor:pointer;font-size:.98rem}
+.flags input{width:1.1rem;height:1.1rem;margin-top:.3rem;accent-color:var(--cyan)}
+.verdict{font-weight:600;padding:.8rem 1rem;border:1px solid var(--rule);background:var(--surface);max-width:var(--measure)}
+.verdict[data-n="1"]{border-color:var(--e3);color:var(--e3)}
+.verdict[data-n="2"]{border-color:var(--e5);color:var(--e5)}
+
+/* painel de casos */
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{font-family:var(--font-data);font-size:.78rem;letter-spacing:.04em;padding:.45rem .8rem;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer;border-radius:999px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cases{display:flex;flex-direction:column;gap:1.25rem}
+.case{background:var(--surface);border:1px solid var(--rule);border-top:3px double var(--gold-bright);padding:1.25rem 1.4rem;display:flex;flex-direction:column;gap:1rem;min-width:0}
+.case-head{display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap}
+.case-seals{display:flex;gap:.7rem;padding:.15rem}
+.case-title{display:flex;flex-direction:column;gap:.15rem;min-width:0;flex:1 1 16rem}
+.case-title h3{font-size:1.25rem;font-weight:600;line-height:1.25}
+.case-title .kind{font-family:var(--font-data);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan)}
+.case dl{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:.7rem 1.25rem;margin:0}
+.case dt{font-family:var(--font-data);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);padding-top:.3rem}
+.case dd{margin:0;font-size:.98rem;min-width:0}
+.case dd .money{font-family:var(--font-data);font-weight:700;font-size:1.02rem;font-variant-numeric:tabular-nums}
+.verdict-no{font-weight:600;color:var(--d)}
+.todo{color:var(--e4)}
+.case details{border-top:1px solid var(--rule);padding-top:.7rem}
+.case summary{cursor:pointer;font-family:var(--font-data);font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--cyan)}
+.case details ul{margin:.6rem 0 0;padding-left:1.1rem;font-size:.9rem;display:flex;flex-direction:column;gap:.3rem}
+.case details li{overflow-wrap:anywhere}
+
+/* livro-razão */
+.scroll{overflow-x:auto;border:1px solid var(--rule);background:var(--surface)}
+table.ledger{border-collapse:collapse;width:100%;min-width:46rem;font-size:.9rem;font-variant-numeric:tabular-nums}
+.ledger th,.ledger td{padding:.7rem .85rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule);border-right:1px solid var(--rule)}
+.ledger th:last-child,.ledger td:last-child{border-right:0}
+.ledger thead th{font-family:var(--font-data);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);background:var(--surface-2);font-weight:700}
+.ledger tbody th{font-weight:600}
+.ledger .v{font-family:var(--font-data);font-weight:700;display:block}
+.ledger .q{color:var(--ink-soft);font-size:.82rem;display:block}
+.ledger .nil{color:var(--ink-soft)}
+.ledger tfoot td{font-family:var(--font-display);font-weight:700;letter-spacing:.08em;font-size:.82rem;background:var(--surface-2);border-bottom:0;color:var(--e5)}
+
+/* calculadoras */
+.tool{background:var(--surface);border:1px solid var(--rule);padding:1.25rem 1.4rem;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:2rem}
+.tool-in,.tool-out{display:flex;flex-direction:column;gap:.9rem;min-width:0}
+.field{display:flex;flex-direction:column;gap:.25rem}
+.field label,.field .lab{display:flex;justify-content:space-between;gap:1rem;font-size:.92rem}
+.field label b,.field .lab b{font-family:var(--font-data);font-size:.8rem;color:var(--gold);white-space:nowrap}
+.field input[type=range]{width:100%;accent-color:var(--cyan)}
+.field select,.field input[type=number]{font:inherit;font-family:var(--font-data);font-size:.92rem;padding:.5rem .6rem;border:1px solid var(--rule);background:var(--bg);color:var(--ink);width:100%}
+.field input:disabled{opacity:.4}
+.score{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap}
+.score .num{font-family:var(--font-display);font-weight:700;font-size:3.4rem;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.score .of{font-family:var(--font-data);font-size:.85rem;color:var(--ink-soft)}
+.band{font-family:var(--font-data);font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;padding:.3rem .6rem;border:1px solid currentColor;align-self:flex-start}
+.stack{display:flex;height:1.1rem;background:var(--surface-2);border:1px solid var(--rule)}
+.stack i{display:block;height:100%}
+.stack i:nth-child(odd){background:var(--gold-bright)}
+.stack i:nth-child(even){background:var(--cyan)}
+.breakdown{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1rem;font-size:.86rem}
+.breakdown span:nth-child(even){font-family:var(--font-data);font-variant-numeric:tabular-nums;text-align:right}
+.alloc{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.55rem}
+.alloc li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.15rem 1rem;font-size:.92rem}
+.alloc .amt{font-family:var(--font-data);font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.alloc .bar{grid-column:1 / -1;height:.5rem;background:var(--surface-2)}
+.alloc .bar i{display:block;height:100%;background:var(--cyan)}
+.stamp{font-family:var(--font-data);font-weight:700;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--e5);border:1px solid currentColor;padding:.35rem .6rem;align-self:flex-start}
+
+/* canais */
+.channels{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem}
+.channels li{display:flex;flex-direction:column;gap:.15rem;padding-block:.8rem;border-top:1px solid var(--rule);min-width:0}
+.channels b{font-weight:600}
+.channels span{font-size:.93rem;color:var(--ink-soft)}
+
+/* textos para copiar */
+.copybox{display:flex;flex-direction:column;gap:.6rem;min-width:0}
+.copyhead{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.copyhead h3{font-size:1.1rem;font-weight:600}
+.count{font-family:var(--font-data);font-size:.78rem;color:var(--ink-soft)}
+.btn{font-family:var(--font-data);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:.55rem 1rem;border:1px solid var(--gold-bright);background:var(--ink);color:var(--bg);cursor:pointer}
+.btn:hover{background:var(--cyan);border-color:var(--cyan)}
+textarea.copy{width:100%;min-height:17rem;font-family:var(--font-data);font-size:.8rem;line-height:1.55;padding:1rem;border:1px solid var(--rule);background:var(--surface);color:var(--ink);resize:vertical}
+.status{font-family:var(--font-data);font-size:.78rem;color:var(--d);min-height:1.2em}
+
+/* pendências e fontes */
+.pend{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.pend li{padding-block:.75rem;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:1rem;font-size:.97rem}
+.pend b{font-family:var(--font-data);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--e4);padding-top:.25rem}
+.sources{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.45rem;font-size:.9rem}
+.sources li{overflow-wrap:anywhere}
+.colophon{border-top:3px double var(--gold-bright);padding-top:1.5rem;display:flex;flex-direction:column;gap:.5rem;font-size:.9rem;color:var(--ink-soft)}
+.colophon p{max-width:var(--measure)}
+
+/* patrimônio x orçamento */
+.rank{margin:0;padding:0;list-style:none;counter-reset:rk;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.rank li{counter-increment:rk;display:grid;grid-template-columns:2.4rem minmax(0,1.3fr) minmax(0,1fr) minmax(0,1.6fr);gap:.2rem 1rem;align-items:baseline;padding-block:.75rem;border-bottom:1px solid var(--rule)}
+.rank li::before{content:counter(rk) "º";font-family:var(--font-display);font-weight:700;color:var(--gold);font-size:1.05rem}
+.rank .nm{font-weight:600;min-width:0}
+.rank .nm small{display:block;font-weight:400;font-size:.82rem;color:var(--ink-soft)}
+.rank .est{font-family:var(--font-data);font-weight:700;font-size:.98rem;font-variant-numeric:tabular-nums}
+.rank .est s{color:var(--ink-soft);font-weight:400}
+.rank .est small{display:block;font-weight:400;font-size:.72rem;color:var(--ink-soft)}
+.rank .st{font-size:.9rem;color:var(--ink-soft);min-width:0}
+.tag{display:inline-block;font-family:var(--font-data);font-weight:700;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;padding:.1rem .4rem;border:1px solid currentColor;margin-right:.35rem}
+.tag.now{color:var(--d)} .tag.old{color:var(--e3)} .tag.fix{color:var(--e5)}
+.facts3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:0}
+.facts3 div{background:var(--surface);border:1px solid var(--rule);padding:.9rem 1rem;display:flex;flex-direction:column;gap:.3rem;min-width:0}
+.facts3 dt{font-family:var(--font-data);font-weight:700;font-size:1.3rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.facts3 dd{margin:0;font-size:.9rem}
+.facts3 dd small{display:block;color:var(--ink-soft);font-size:.8rem;margin-top:.25rem}
+.vizbox{background:var(--surface);border:1px solid var(--rule);padding:1.1rem 1.25rem;display:flex;flex-direction:column;gap:1rem;min-width:0}
+.vizhead{display:flex;justify-content:space-between;align-items:center;gap:.8rem 1.5rem;flex-wrap:wrap}
+.legend{display:flex;gap:.4rem 1.2rem;flex-wrap:wrap;font-size:.84rem}
+.legend span{display:inline-flex;align-items:center;gap:.4rem}
+.legend i{width:.8rem;height:.8rem;border-radius:2px;display:inline-block}
+.sw-w{background:var(--viz-wealth)} .sw-p{background:var(--viz-public)}
+.ladder{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.75rem}
+.ladder li{display:grid;grid-template-columns:minmax(0,15.5rem) minmax(0,1fr);gap:.2rem 1rem;align-items:center}
+.ladder .who{font-size:.92rem;font-weight:600;line-height:1.25;min-width:0}
+.ladder .who small{display:block;font-weight:400;font-size:.76rem;color:var(--ink-soft)}
+.ladder .track{display:flex;align-items:center;gap:.55rem;min-width:0}
+.ladder .bar{flex:none;height:1.15rem;min-width:2px;border-radius:0 4px 4px 0;width:calc(var(--p) * (100% - 7.8rem))}
+.ladder .bar.w{background:var(--viz-wealth)} .ladder .bar.p{background:var(--viz-public)}
+.ladder .val{font-family:var(--font-data);font-weight:700;font-size:.84rem;white-space:nowrap;color:var(--ink);font-variant-numeric:tabular-nums}
+.ladder li:hover .who,.ladder li:focus-within .who{color:var(--cyan)}
+.equiv{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem 2rem}
+.equiv li{display:flex;flex-direction:column;gap:.1rem;padding-top:.6rem;border-top:1px solid var(--rule);min-width:0}
+.equiv b{font-family:var(--font-display);font-weight:700;font-size:1.7rem;line-height:1.1;color:var(--gold);font-variant-numeric:tabular-nums}
+.equiv span{font-size:.92rem}
+.pending-cases{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:1rem}
+.pending-cases li{border:1px dashed var(--rule);padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.4rem;min-width:0}
+.pending-cases h3{font-size:1.05rem;font-weight:600;display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.pending-cases p{font-size:.94rem}
+
+@media (max-width:860px){
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .brasao{order:-1}
+  .brasao svg{max-width:9rem}
+  .folio{grid-template-columns:minmax(0,1fr);gap:.9rem}
+  .folio-mark{flex-direction:row;gap:.8rem;align-items:baseline}
+  .types,.tool,.facts3{grid-template-columns:minmax(0,1fr)}
+  .rank li{grid-template-columns:2.4rem minmax(0,1fr)}
+  .rank .est,.rank .st{grid-column:2}
+}
+@media (max-width:640px){
+  body{font-size:1rem}
+  .facts,.rules,.flags,.channels,.equiv{grid-template-columns:minmax(0,1fr)}
+  .ladder li{grid-template-columns:minmax(0,1fr)}
+  .case dl{grid-template-columns:minmax(0,1fr);gap:.1rem}
+  .case dt{padding-top:.7rem}
+  .pend li{grid-template-columns:minmax(0,1fr);gap:.1rem}
+  .brand{display:none}
+}
+@media (prefers-reduced-motion:no-preference){
+  .chip,.btn{transition:background-color .15s,color .15s}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">AEB · 360</span>
+    <nav class="navlinks" aria-label="Seções">
+      <a href="../">↩ Transparência 360X</a>
+      <a href="#leitura">Leitura</a>
+      <a href="#escala">Escala</a>
+      <a href="#anatomia">Anatomia</a>
+      <a href="#vitimas">Vítimas</a>
+      <a href="#casos">Casos</a>
+      <a href="#razao">Dinheiro</a>
+      <a href="#patrimonio">Patrimônio</a>
+      <a href="#irir">IRIR</a>
+      <a href="#impacto">Impacto</a>
+      <a href="#denunciar">Denunciar</a>
+      <a href="#prompt">Prompt</a>
+      <a href="#pendencias">Pendências</a>
+      <a href="#fontes">Fontes</a>
+    </nav>
+  </div>
+</header>
+
+<main class="codex">
+
+  <section class="hero">
+    <div class="hero-text">
+      <span class="label">🛡️ Códice de auditoria · situação dos casos verificada em 6 de outubro de 2026</span>
+      <h1>Auditoria Evangélica Brasil <span class="n360">360</span></h1>
+      <p class="lead">Um painel sobre fraude financeira praticada com uso da fé no Brasil. Cada caso traz o estágio do processo, a natureza do valor citado, a versão da defesa e a fonte. A fé e os fiéis ficam fora da mira.</p>
+      <dl class="facts">
+        <div><dt>🌎 Universo</dt><dd><b>47,4 milhões</b><br>de evangélicos, 26,9% da população com 10 anos ou mais (Censo 2022, IBGE).</dd></div>
+        <div><dt>📜 Painel inicial</dt><dd><b>5 casos</b><br>todos com operação policial, denúncia ou decisão judicial registrada.</dd></div>
+        <div><dt>⚖️ Regra do dinheiro</dt><dd><b>4 colunas</b><br>movimentado, bloqueado, alegado e comprovado nunca entram na mesma soma.</dd></div>
+      </dl>
+    </div>
+    <div class="brasao">
+      <svg viewBox="0 0 240 280" role="img" aria-label="Brasão do projeto: escudo com balança e livro aberto">
+        <path class="bz-field" d="M20 20H220V140C220 210 170 250 120 268C70 250 20 210 20 140Z"/>
+        <path class="bz-inner" d="M32 32H208V140C208 200 164 236 120 254C76 236 32 200 32 140Z"/>
+        <path class="bz-cy" d="M120 62V186M70 86H170M70 86L54 128M70 86L86 128M170 86L154 128M170 86L186 128M48 128Q70 150 92 128M148 128Q170 150 192 128M102 186H138"/>
+        <circle class="bz-node" cx="120" cy="62" r="5"/>
+        <path class="bz-gd" d="M120 206L90 198V224L120 232ZM120 206L150 198V224L120 232Z"/>
+        <path class="bz-gd" d="M46 48V64H60M194 48V64H180"/>
+        <circle class="bz-node" cx="46" cy="48" r="3"/><circle class="bz-node" cx="60" cy="64" r="3"/>
+        <circle class="bz-node" cx="194" cy="48" r="3"/><circle class="bz-node" cx="180" cy="64" r="3"/>
+      </svg>
+      <span class="motto">FIDES SINE FRAUDE</span>
+    </div>
+  </section>
+
+  <section class="folio" id="leitura">
+    <div class="folio-mark"><span class="folio-num">FÓLIO I</span><span class="label">Método</span></div>
+    <div class="folio-body">
+      <h2>🧭 Como ler este painel</h2>
+      <ul class="rules">
+        <li><h3>Estágio antes do adjetivo</h3><p>Investigado, denunciado, réu, condenado e absolvido são situações diferentes. O painel usa o verbo do estágio e nunca chama alguém de corrupto sem decisão judicial que sustente a palavra.</p></li>
+        <li><h3>Todo valor tem natureza</h3><p>Dinheiro movimentado, bloqueado, alegado pela acusação e comprovado em decisão ficam em colunas separadas. Somar tudo produz um número falso.</p></li>
+        <li><h3>Pessoa não é igreja</h3><p>O ato de um dirigente ou de uma filial não vira culpa da denominação sem prova de comando ou benefício institucional. Cargo político de um religioso gera um caso político.</p></li>
+        <li><h3>A defesa entra no painel</h3><p>Absolvição, prescrição, trancamento e arquivamento aparecem com o mesmo destaque da acusação. Toda pessoa citada tem direito de resposta e de correção.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="folio" id="escala">
+    <div class="folio-mark"><span class="folio-num">FÓLIO II</span><span class="label">Selos</span></div>
+    <div class="folio-body">
+      <h2>🔏 Escala de evidência</h2>
+      <p>Cada caso recebe um selo. O selo mede a força do documento, e não a gravidade do que se alega.</p>
+      <ul class="scale">
+        <li><span class="seal e5">E5</span><div><b>Definitivo.</b> Condenação com trânsito em julgado, confissão em juízo ou auditoria oficial conclusiva.<span class="use">Único nível que entra na conta de dano comprovado.</span></div></li>
+        <li><span class="seal e4">E4</span><div><b>Réu ou condenação recorrível.</b> Denúncia recebida, indiciamento ou sentença ainda sujeita a recurso.<span class="use">Entra no ranking de risco documental.</span></div></li>
+        <li><span class="seal e3">E3</span><div><b>Investigação oficial.</b> Inquérito, busca e apreensão, prisão cautelar ou bloqueio de bens.<span class="use">Entra no ranking de risco documental.</span></div></li>
+        <li><span class="seal e2">E2</span><div><b>Indício documental.</b> Papel existe, confirmação oficial ainda não.<span class="use">Fica em apuração. Não gera ranking.</span></div></li>
+        <li><span class="seal e1">E1</span><div><b>Alegação ou rumor.</b><span class="use">Não entra em painel nominal.</span></div></li>
+        <li><span class="seal d">D</span><div><b>Desfecho favorável à defesa.</b> Absolvição, arquivamento, prescrição, trancamento ou rejeição da denúncia.<span class="use">Zera o componente de evidência daquela imputação.</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="folio" id="anatomia">
+    <div class="folio-mark"><span class="folio-num">FÓLIO III</span><span class="label">Estrutura</span></div>
+    <div class="folio-body">
+      <h2>🕸️ Anatomia do esquema</h2>
+      <p>Os cinco casos do painel se dividem em três tipos. Só o primeiro tira dinheiro diretamente do fiel.</p>
+      <div class="types">
+        <div class="type"><span class="letter">A</span><h3>Fraude contra fiéis</h3><p>Estelionato que usa a autoridade religiosa como isca. O dinheiro sai do bolso de quem confia. No painel: o caso Falso Profeta.</p></div>
+        <div class="type"><span class="letter">B</span><h3>Corrupção política</h3><p>Líder religioso com poder em governo é acusado de desviar verba pública. O dinheiro em disputa é do contribuinte. No painel: Hades e Tris in Idem.</p></div>
+        <div class="type"><span class="letter">C</span><h3>Finanças sob suspeita</h3><p>Acusações de evasão de divisas e lavagem ligadas à cúpula de igrejas. No painel: Renascer e Universal, com desfechos favoráveis à defesa em parte delas.</p></div>
+      </div>
+
+      <h3 class="label" style="margin-top:.5rem">O percurso do tipo A, etapa por etapa, como descrito pela polícia e pela sentença no caso Falso Profeta</h3>
+      <ol class="path">
+        <li><div class="st"><h3>Autoridade e confiança</h3><p>A sentença de Goiás registra que o réu se valeu do poder de persuasão que tinha na comunidade evangélica e da confiança depositada na condição de pastor para enganar fiéis e até outros pastores.</p><span class="src-tag">TJGO, 1ª instância, dez/2023</span></div></li>
+        <li><div class="st"><h3>Promessa impossível</h3><p>Quem ajudasse a arrecadar seria recompensado com até 100 vezes o valor entregue. A polícia do DF encontrou promessas de “um octilhão de reais” para um depósito de R$ 25.</p><span class="src-tag">TJGO · PCDF, set/2023</span></div></li>
+        <li><div class="st"><h3>Recrutadores e prova social</h3><p>Os fiéis eram captados nas igrejas e, depois, pelas redes sociais. A PCDF descreve uma rede hierarquizada com cerca de 200 integrantes e dezenas de lideranças religiosas.</p><span class="src-tag">PCDF, set/2023</span></div></li>
+        <li><div class="st"><h3>A taxa para liberar a fortuna</h3><p>O pastor dizia ter recebido títulos milionários e precisar de dinheiro para custas e honorários antes de resgatá-los. Cada pedido adiava o pagamento prometido.</p><span class="src-tag">TJGO</span></div></li>
+        <li><div class="st"><h3>Captação de dinheiro e bens</h3><p>Segundo a denúncia, algumas vítimas venderam a própria casa para entregar o dinheiro, e houve quem levasse parentes a investir também.</p><span class="src-tag">TJGO</span></div></li>
+        <li><div class="st"><h3>Pulverização</h3><p>A investigação aponta cerca de 40 empresas de fachada, mais de 800 contas bancárias suspeitas e um falso banco digital. Movimentação estimada: mais de R$ 156 milhões em cinco anos.</p><span class="src-tag">PCDF, set e dez/2023</span></div></li>
+        <li><div class="st"><h3>Reincidência</h3><p>Preso por 30 dias em 2018, o líder foi depois denunciado pelo Ministério Público de São Paulo por novas captações e virou alvo da operação de 2023. Em dezembro de 2023 um investigado foi preso por descumprir a proibição judicial de postar nas redes.</p><span class="src-tag">Polícia Civil de GO · MP-SP · PCDF</span></div></li>
+      </ol>
+
+      <div class="aside">
+        <h3>🤓 O PROBLEMA TEM NOME DESDE A IDADE MÉDIA</h3>
+        <p><strong>Simonia</strong> é a venda de coisas sagradas. O termo vem de Simão, o Mago, que em Atos 8 tenta comprar dos apóstolos o poder de impor as mãos. Dante pôs os simoníacos no oitavo círculo do Inferno (Canto XIX). Em 1517, as 95 teses de Lutero atacaram a venda de indulgências. A crítica à fé tratada como negócio nasceu dentro do próprio cristianismo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="folio" id="vitimas">
+    <div class="folio-mark"><span class="folio-num">FÓLIO IV</span><span class="label">Proteção</span></div>
+    <div class="folio-body">
+      <h2>🫂 Quem cai, e por quê</h2>
+      <p>Entre os enganados no caso de Goiás havia outros pastores. Quem cai confia em uma autoridade conhecida, está sob pressão por dívida, doença ou luto e recebe a promessa de alguém do próprio grupo. O nome técnico é <strong>fraude por afinidade</strong>. Inteligência não protege contra ela. Informação e uma segunda opinião de fora do grupo protegem.</p>
+      <p class="label">🚩 Marque o que você ou alguém da sua família ouviu</p>
+      <ul class="flags" id="flags">
+        <li><label for="f1"><input type="checkbox" id="f1"><span>Prometeram multiplicar o dinheiro ofertado ou “investido”.</span></label></li>
+        <li><label for="f2"><input type="checkbox" id="f2"><span>Pediram uma taxa para liberar um valor maior.</span></label></li>
+        <li><label for="f3"><input type="checkbox" id="f3"><span>Pediram segredo, inclusive da família.</span></label></li>
+        <li><label for="f4"><input type="checkbox" id="f4"><span>Deram prazo curto: é hoje ou a bênção se perde.</span></label></li>
+        <li><label for="f5"><input type="checkbox" id="f5"><span>O depósito vai para conta de pessoa física ou de empresa desconhecida.</span></label></li>
+        <li><label for="f6"><input type="checkbox" id="f6"><span>Disseram que duvidar é falta de fé.</span></label></li>
+        <li><label for="f7"><input type="checkbox" id="f7"><span>Sugeriram vender casa, carro ou tomar empréstimo.</span></label></li>
+        <li><label for="f8"><input type="checkbox" id="f8"><span>Mostraram extrato, título ou certificado que ninguém de fora pode conferir.</span></label></li>
+      </ul>
+      <p class="verdict" id="flag-verdict" data-n="0" aria-live="polite">Nenhum sinal marcado.</p>
+    </div>
+  </section>
+
+  <section class="folio" id="casos">
+    <div class="folio-mark"><span class="folio-num">FÓLIO V</span><span class="label">Painel</span></div>
+    <div class="folio-body">
+      <h2>📜 Painel de casos documentados</h2>
+      <p>Situação conferida em 6 de outubro de 2026. Antes de citar qualquer caso fora desta página, reconfira no site do tribunal.</p>
+      <div class="chips" role="group" aria-label="Filtrar por selo">
+        <button class="chip" type="button" data-f="all" aria-pressed="true">Todos · 5</button>
+        <button class="chip" type="button" data-f="e5" aria-pressed="false">E5 · 1</button>
+        <button class="chip" type="button" data-f="e4" aria-pressed="false">E4 · 3</button>
+        <button class="chip" type="button" data-f="e3" aria-pressed="false">E3 · 1</button>
+        <button class="chip" type="button" data-f="d" aria-pressed="false">D · 2</button>
+      </div>
+
+      <div class="cases" id="cases">
+
+        <article class="case" data-tags="e4 e3">
+          <div class="case-head">
+            <div class="case-seals"><span class="seal e4" title="Condenação recorrível em Goiás">E4</span><span class="seal e3" title="Investigação da PCDF">E3</span></div>
+            <div class="case-title"><span class="kind">Tipo A · fraude contra fiéis</span><h3>Osório José Lopes Júnior · Operação Falso Profeta</h3></div>
+          </div>
+          <dl>
+            <dt>Valor citado</dt><dd><span class="money">R$ 156 milhões</span> movimentados em cinco anos, segundo a Polícia Civil do DF. É movimentação investigada, e não dano comprovado.</dd>
+            <dt>Situação</dt><dd>Operação deflagrada em 20/09/2023 com mais de 50 mil vítimas estimadas pela polícia. Preso no dia seguinte na região de Gurupi (TO). Em Goiás, em processo anterior, foi <strong>condenado em 1ª instância a 27 anos de prisão</strong> e a reparar as vítimas em mais de R$ 1 milhão (notícia de 14/12/2023). A sentença é recorrível.</dd>
+            <dt>Defesa</dt><dd>Em 2023 a advogada chamou a investigação do DF de “lamentável equívoco”.</dd>
+            <dt>Atribuir à denominação?</dt><dd><span class="verdict-no">Não.</span> As fontes não apontam responsabilidade de nenhuma denominação.</dd>
+            <dt>Pendência</dt><dd class="todo">Julgamento do recurso em Goiás e sentença do processo do DF: não localizados.</dd>
+          </dl>
+          <details><summary>Fontes do caso</summary><ul>
+            <li><a href="https://www.correiobraziliense.com.br/cidades-df/2023/09/5127115-entenda-como-funcionava-esquema-de-golpe-milionario-liderado-por-pastor.html" target="_blank" rel="noopener noreferrer">Correio Braziliense, set/2023: como funcionava o esquema</a></li>
+            <li><a href="https://www.correiobraziliense.com.br/cidades-df/2023/09/5127474-pastor-apontado-por-ter-feito-mais-de-50-mil-vitimas-e-preso-no-to.html" target="_blank" rel="noopener noreferrer">Correio Braziliense, set/2023: prisão no Tocantins</a></li>
+            <li><a href="https://www.rotajuridica.com.br/juiza-placidina-pires-condena-pastor-que-aplicou-golpe-milionario-em-fieis-a-27-anos-de-prisao/" target="_blank" rel="noopener noreferrer">Rota Jurídica, 14/12/2023: condenação a 27 anos</a></li>
+            <li><a href="https://tjgo.jus.br/images/img/CCS/docs/Sentena_-_estelionato_associao_criminosa_e_lavagem_de_capitais_-_Pastor_Osrio_-_65729-67_-_LANADO_compressed_1.pdf" target="_blank" rel="noopener noreferrer">TJGO: íntegra de sentença (PDF)</a></li>
+            <li><a href="https://jornalopcao.com.br/ultimas-noticias/tenho-vergonha-de-dizer-que-la-atras-fiz-coisas-erradas-diz-pastor-goiano-que-esta-foragido-532259/" target="_blank" rel="noopener noreferrer">Jornal Opção, set/2023: posição da defesa</a></li>
+          </ul></details>
+        </article>
+
+        <article class="case" data-tags="e4">
+          <div class="case-head">
+            <div class="case-seals"><span class="seal e4" title="Réu; condenação eleitoral com efeitos suspensos">E4</span></div>
+            <div class="case-title"><span class="kind">Tipo B · corrupção política</span><h3>Marcelo Crivella · Operação Hades, o “QG da Propina”</h3></div>
+          </div>
+          <dl>
+            <dt>Valor citado</dt><dd><span class="money">R$ 53 milhões</span> é quanto o Ministério Público do Rio afirma, na denúncia, que o esquema arrecadou. É valor alegado pela acusação.</dd>
+            <dt>Situação</dt><dd>Preso preventivamente em 22/12/2020, com prisão depois revogada. O caso foi remetido à Justiça Eleitoral, onde ele se tornou réu por falsidade ideológica eleitoral, corrupção, lavagem e organização criminosa; em 24/08/2023 o TSE negou recurso e manteve a ação. Em outra ação, o TRE-RJ manteve, por maioria, a inelegibilidade por 8 anos por abuso de poder político e econômico. <strong>Em 30/06/2026 uma liminar do TSE suspendeu a inelegibilidade, mantida pelo plenário em 20/08/2026 por 4 a 3.</strong> O mérito do recurso não foi julgado.</dd>
+            <dt>Defesa</dt><dd>Nega as acusações e fala em perseguição política. A liminar do TSE citou voto da relatora, na esfera penal, pela rejeição da denúncia por falta de justa causa.</dd>
+            <dt>Atribuir à denominação?</dt><dd><span class="verdict-no">Não.</span> Crivella é bispo licenciado da Universal, mas o caso trata de contratos da Prefeitura do Rio. É dinheiro público, e não dízimo.</dd>
+            <dt>Pendência</dt><dd class="todo">Mérito no TSE e andamento atual da ação penal eleitoral.</dd>
+          </dl>
+          <details><summary>Fontes do caso</summary><ul>
+            <li><a href="https://www.conjur.com.br/2020-dez-22/prefeito-rio-marcelo-crivella-preso-fim-mandato/" target="_blank" rel="noopener noreferrer">ConJur, 22/12/2020: prisão e link para a denúncia</a></li>
+            <li><a href="https://www.maisgoias.com.br/politica/esquema-do-qg-da-propina-rendeu-r-53-milhoes-afirma-mp/" target="_blank" rel="noopener noreferrer">Estadão via Mais Goiás, dez/2020: R$ 53 milhões segundo o MP</a></li>
+            <li><a href="https://www.correiobraziliense.com.br/politica/2023/08/5119827-qg-da-propina-tse-nega-recurso-de-crivella.html" target="_blank" rel="noopener noreferrer">Correio Braziliense, 25/08/2023: TSE mantém a ação</a></li>
+            <li><a href="https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/" target="_blank" rel="noopener noreferrer">Poder360, ago/2026: TSE mantém suspensa a inelegibilidade</a></li>
+            <li><a href="https://www.correiodamanha.com.br/colunistas/correio-bastidores/2026/08/312990-tse-mantem-caminho-aberto-para-candidatura-de-crivella-ao-senado.html" target="_blank" rel="noopener noreferrer">Correio da Manhã, ago/2026: placar de 4 a 3</a></li>
+          </ul></details>
+        </article>
+
+        <article class="case" data-tags="e4">
+          <div class="case-head">
+            <div class="case-seals"><span class="seal e4" title="Denunciado pelo MPF">E4</span></div>
+            <div class="case-title"><span class="kind">Tipo B · corrupção política</span><h3>Pastor Everaldo Dias Pereira · Operação Tris in Idem</h3></div>
+          </div>
+          <dl>
+            <dt>Valor citado</dt><dd><span class="money">Nenhum</span> valor individual é lançado neste painel.</dd>
+            <dt>Situação</dt><dd>Preso em 28/08/2020 por ordem do STJ, na operação que afastou o governador Wilson Witzel; a prisão virou preventiva em 04/09/2020. O MPF o aponta como líder de um dos grupos que desviariam recursos do governo do Rio, inclusive da saúde, e o denunciou por organização criminosa. Em julho de 2021 a Justiça Federal suspendeu a prisão, que já passava de dez meses sem início da instrução, e o TRF-2 derrubou a fiança de R$ 1 milhão.</dd>
+            <dt>Defesa</dt><dd>Nega as acusações. O partido que ele presidia chamou a delação de mentirosa.</dd>
+            <dt>Atribuir à denominação?</dt><dd><span class="verdict-no">Não.</span> As fontes não apontam benefício ilícito de nenhuma igreja como instituição.</dd>
+            <dt>Pendência</dt><dd class="todo">Desfecho da ação penal na 7ª Vara Federal Criminal do Rio: não localizado.</dd>
+          </dl>
+          <details><summary>Fontes do caso</summary><ul>
+            <li><a href="https://jovempan.com.br/politica/ministro-do-stj-converte-prisao-de-pastor-everaldo-em-preventiva/" target="_blank" rel="noopener noreferrer">Jovem Pan, set/2020: prisão preventiva</a></li>
+            <li><a href="https://www.migalhas.com.br/quentes/348161/trf-2-derruba-fianca-e-pastor-everaldo-podera-deixar-prisao" target="_blank" rel="noopener noreferrer">Migalhas, 07/07/2021: TRF-2 derruba a fiança</a></li>
+            <li><a href="https://diariodopoder.com.br/politica/stj-converte-prisao-do-presidente-do-psc-pastor-everaldo-para-preventiva/amp" target="_blank" rel="noopener noreferrer">Diário do Poder, set/2020: nota do partido</a></li>
+          </ul></details>
+        </article>
+
+        <article class="case" data-tags="e5 d">
+          <div class="case-head">
+            <div class="case-seals"><span class="seal e5" title="Confissão em juízo nos EUA">E5</span><span class="seal d" title="Ação de lavagem trancada pelo STF">D</span></div>
+            <div class="case-title"><span class="kind">Tipo C · finanças sob suspeita</span><h3>Estevam e Sônia Hernandes · Igreja Renascer</h3></div>
+          </div>
+          <dl>
+            <dt>Valor citado</dt><dd><span class="money">US$ 56,5 mil</span> em espécie, levados aos EUA sem declaração. É numerário não declarado, e não desvio comprovado.</dd>
+            <dt>Situação</dt><dd>Presos em Miami em 09/01/2007. Declararam-se culpados em 08/06/2007 e, em 17/08/2007, receberam cinco meses de prisão e cinco de prisão domiciliar cada um. No Brasil, a 6ª Vara Federal Criminal de São Paulo os condenou em 01/12/2009 por evasão de divisas e falsidade ideológica (US$ 56.467 não declarados). Em novembro de 2017 o STF negou o pedido de trancamento e descreveu a pena como de três anos em regime inicial semiaberto. <strong>A ação separada por lavagem de dinheiro foi trancada pela 1ª Turma do STF em 12/06/2012</strong> (HC 96.007).</dd>
+            <dt>Defesa</dt><dd>Sustentou que o casal já havia sido punido nos EUA pelos mesmos fatos.</dd>
+            <dt>Atribuir à denominação?</dt><dd><span class="verdict-no">Não.</span> É conduta dos dirigentes. O valor não deve ser lançado como dinheiro da igreja.</dd>
+            <dt>Pendência</dt><dd class="todo">Trânsito em julgado da condenação brasileira: afirmado em material de terceiros, não confirmado no acórdão.</dd>
+          </dl>
+          <details><summary>Fontes do caso</summary><ul>
+            <li><a href="https://www.conjur.com.br/2007-ago-17/casal_renascer_condenado_prisao_eua/" target="_blank" rel="noopener noreferrer">ConJur, 17/08/2007: sentença nos EUA</a></li>
+            <li><a href="https://www.conjur.com.br/2009-dez-02/juiz-aumenta-pena-estevam-sonia-hernandes-eles-serem-religiosos/" target="_blank" rel="noopener noreferrer">ConJur, 02/12/2009: sentença da 6ª Vara Federal Criminal</a></li>
+            <li><a href="https://www.conjur.com.br/2017-nov-11/fachin-mantem-acao-penal-bispa-apostolo-evasao-divisas/" target="_blank" rel="noopener noreferrer">ConJur, 11/11/2017: STF mantém a ação por evasão</a></li>
+            <li><a href="https://www.dizerodireito.com.br/2012/06/stf-decide-que-definicao-de-organizacao.html" target="_blank" rel="noopener noreferrer">Dizer o Direito, jun/2012: trancamento da ação de lavagem</a></li>
+          </ul></details>
+        </article>
+
+        <article class="case" data-tags="d">
+          <div class="case-head">
+            <div class="case-seals"><span class="seal d" title="Prescrição e absolvições">D</span></div>
+            <div class="case-title"><span class="kind">Tipo C · finanças sob suspeita</span><h3>Igreja Universal · ação federal por lavagem e evasão</h3></div>
+          </div>
+          <dl>
+            <dt>Valor citado</dt><dd><span class="money">Nenhum.</span> Não há valor de irregularidade comprovada nas fontes.</dd>
+            <dt>Situação</dt><dd>O MPF denunciou Edir Macedo e outras três pessoas. As acusações de estelionato e falsidade ideológica foram rejeitadas. <strong>Em setembro de 2019 a acusação de lavagem contra Macedo prescreveu sem sentença.</strong> Em fevereiro de 2020 a 2ª Vara Federal Criminal de São Paulo absolveu dois dirigentes da evasão de divisas e reconheceu a prescrição da lavagem, para Macedo e outro réu, e da formação de quadrilha. Não houve condenação.</dd>
+            <dt>Defesa</dt><dd>Em nota reproduzida pela imprensa, a defesa afirmou que a sentença reconheceu a inocência dos acusados. Nas alegações finais, o próprio MPF havia pedido a absolvição de Macedo por lavagem.</dd>
+            <dt>Atribuir à denominação?</dt><dd><span class="verdict-no">Não.</span> Sem condenação, não cabe valor nem rótulo.</dd>
+            <dt>Registro</dt><dd>A sentença anotou indícios de remessas ao exterior feitas por doleiros, sem prova da participação dos réus.</dd>
+          </dl>
+          <details><summary>Fontes do caso</summary><ul>
+            <li><a href="https://apublica.org/2019/10/demora-na-justica-fez-prescrever-acao-que-investigava-edir-macedo-por-lavagem-de-dinheiro/" target="_blank" rel="noopener noreferrer">Agência Pública, out/2019: prescrição</a></li>
+            <li><a href="https://apublica.org/2019/11/mesmo-sabendo-de-prazo-justica-federal-deixou-acao-contra-edir-macedo-prescrever" target="_blank" rel="noopener noreferrer">Agência Pública, nov/2019: a vara sabia do prazo</a></li>
+            <li><a href="https://www.tribunadosertao.com.br/geral/2020/02/13/302251-juiza-absolve-dirigentes-da-iurd-em-acao-de-lavagem-de-dinheiro" target="_blank" rel="noopener noreferrer">Estadão via Tribuna do Sertão, 13/02/2020: sentença</a></li>
+          </ul></details>
+        </article>
+
+      </div>
+
+      <h3 class="label" style="margin-top:.5rem">🔍 Em verificação: dois casos que ainda não entram no painel</h3>
+      <ul class="pending-cases">
+        <li><h3><span class="seal e2">E2</span>Igreja Cristã Maranata · desvio de dízimos</h3><p>O Ministério Público do Espírito Santo denunciou 19 pessoas por estelionato, fraude e lavagem de dinheiro ligados a dízimos; as audiências começaram em 2014. Não confirmei o valor atribuído ao caso nem o desfecho do processo, mais de dez anos depois. Sem isso, não há nomes nem cifra aqui.</p><span class="src-tag"><a href="https://www.folhavitoria.com.br/policia/igreja-maranata/" target="_blank" rel="noopener noreferrer">Folha Vitória, 2014</a> · <a href="https://www.conjur.com.br/2013-mar-31/justica-espirito-santo-determina-intervencao-igreja-maranata/" target="_blank" rel="noopener noreferrer">ConJur, 2013 (só o título foi lido)</a></span></li>
+        <li><h3><span class="seal e2">E2</span>Máfia dos Sanguessugas · entidade apontada como ligada à Universal</h3><p>Em 2010 o MPF denunciou uma associação beneficente apontada como ligada à Igreja Universal no esquema das ambulâncias, e em outubro de 2014 a imprensa jurídica noticiou condenações de políticos ligados à igreja. Só os títulos foram localizados: valores, nomes, vínculo institucional e desfecho não foram confirmados.</p><span class="src-tag"><a href="http://memoria.ebc.com.br/agenciabrasil/noticia/2010-09-08/mpf-denuncia-entidade-ligada-igreja-universal-por-envolvimento-na-mafia-dos-sanguessugas" target="_blank" rel="noopener noreferrer">Agência Brasil, 2010</a> · <a href="https://www.conjur.com.br/2014-out-22/politicos-ligados-igreja-universal-sao-condenados-corrupcao/" target="_blank" rel="noopener noreferrer">ConJur, 2014</a></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="folio" id="razao">
+    <div class="folio-mark"><span class="folio-num">FÓLIO VI</span><span class="label">Dinheiro</span></div>
+    <div class="folio-body">
+      <h2>💰 Livro-razão: cada valor na sua coluna</h2>
+      <p>O mesmo caso pode ter números em mais de uma coluna. Eles medem coisas diferentes e não se somam.</p>
+      <div class="scroll" tabindex="0" role="region" aria-label="Tabela de valores por natureza">
+        <table class="ledger">
+          <thead><tr><th scope="col">Caso</th><th scope="col">Movimentação investigada</th><th scope="col">Bloqueado ou apreendido</th><th scope="col">Alegado pela acusação</th><th scope="col">Fixado ou reconhecido em juízo</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Falso Profeta</th>
+              <td><span class="v">R$ 156 mi</span><span class="q">em 5 anos, segundo a PCDF</span></td>
+              <td><span class="q">Bloqueio determinado; valor não divulgado nas fontes</span></td>
+              <td><span class="v">R$ 15 mi</span><span class="q">prejuízo em Goiás, segundo a Polícia Civil (2018)</span></td>
+              <td><span class="v">&gt; R$ 1 mi</span><span class="q">reparação às vítimas, sentença recorrível (TJGO, 2023)</span></td></tr>
+            <tr><th scope="row">Hades · Crivella</th>
+              <td class="nil">—</td><td class="nil">Não localizado</td>
+              <td><span class="v">R$ 53 mi</span><span class="q">arrecadados pelo esquema, segundo a denúncia do MPRJ</span></td>
+              <td class="nil">—</td></tr>
+            <tr><th scope="row">Tris in Idem · Everaldo</th>
+              <td class="nil">—</td><td class="nil">—</td><td class="nil">Sem valor individual lançado</td><td class="nil">—</td></tr>
+            <tr><th scope="row">Renascer · Hernandes</th>
+              <td class="nil">—</td>
+              <td><span class="v">US$ 56,5 mil</span><span class="q">apreendidos em Miami (2007)</span></td>
+              <td class="nil">—</td>
+              <td><span class="v">US$ 56,5 mil</span><span class="q">não declarados, confessados em juízo nos EUA</span></td></tr>
+            <tr><th scope="row">Universal</th>
+              <td class="nil">—</td><td class="nil">—</td><td class="nil">Sem valor lançado</td><td class="nil">Nenhum: sem condenação</td></tr>
+          </tbody>
+          <tfoot><tr><td colspan="5">⛔ TOTAL: NÃO SE SOMA. NATUREZAS, MOEDAS E ESTÁGIOS DIFERENTES.</td></tr></tfoot>
+        </table>
+      </div>
+      <p class="note">Dano comprovado em decisão definitiva no Brasil, entre os cinco casos: nenhum valor localizado nesta verificação.</p>
+    </div>
+  </section>
+
+  <section class="folio" id="patrimonio">
+    <div class="folio-mark"><span class="folio-num">FÓLIO VII</span><span class="label">Escala</span></div>
+    <div class="folio-body">
+      <h2>🏛️ Patrimônio privado × orçamento público</h2>
+      <p><strong>Patrimônio alto não é indício de crime.</strong> Este fólio mede escala: põe as estimativas de fortuna de líderes evangélicos ao lado do que Sobral, cidade cearense de 219 mil habitantes, gastou em um ano com saúde, educação e segurança.</p>
+
+      <h3 class="label">👑 Hierarquia dos pastores, pelo patrimônio pessoal estimado</h3>
+      <ol class="rank">
+        <li><span class="nm">Edir Macedo e família<small>Igreja Universal do Reino de Deus</small></span><span class="est">R$ 10,3 bilhões<small>Forbes Brasil 2026, 38ª posição</small></span><span class="st"><span class="tag now">Atual</span>Segundo a Forbes, a fortuna vem do grupo Record e do banco Digimais e não inclui bens da igreja. Em 2013 a revista estimava US$ 950 milhões.</span></li>
+        <li><span class="nm">Valdemiro Santiago<small>Igreja Mundial do Poder de Deus</small></span><span class="est">US$ 220 milhões<small>Forbes, janeiro de 2013</small></span><span class="st"><span class="tag old">Histórico</span>Sem estimativa recente confiável.</span></li>
+        <li><span class="nm">R. R. Soares<small>Igreja Internacional da Graça de Deus</small></span><span class="est">US$ 125 milhões<small>Forbes, janeiro de 2013</small></span><span class="st"><span class="tag old">Histórico</span>Sem estimativa recente confiável.</span></li>
+        <li><span class="nm">Estevam e Sônia Hernandes<small>Igreja Renascer em Cristo</small></span><span class="est">US$ 65 milhões<small>Forbes, janeiro de 2013</small></span><span class="st"><span class="tag old">Histórico</span>Sem estimativa recente confiável.</span></li>
+        <li><span class="nm">Silas Malafaia<small>Assembleia de Deus Vitória em Cristo</small></span><span class="est"><s>US$ 150 milhões</s> ≈ US$ 4,5 milhões<small>Forbes 2013, corrigida em 03/05/2019</small></span><span class="st"><span class="tag fix">Retratado</span>A Forbes reconheceu que o patrimônio era 3% do valor publicado e pediu desculpas ao pastor.</span></li>
+      </ol>
+
+      <h3 class="label">⛪ E o patrimônio das igrejas?</h3>
+      <p>Nenhuma das grandes denominações publica balanço consolidado, e é essa a lacuna que o projeto cobra. Em fonte pública existem três medidas indiretas, e nenhuma delas é exclusiva das igrejas evangélicas.</p>
+      <dl class="facts3">
+        <div><dt>R$ 20,6 bilhões</dt><dd>arrecadados em 2011 por entidades religiosas de todas as religiões, segundo dados da Receita Federal obtidos pela Folha de S.Paulo.<small>Desse total, R$ 14,2 bilhões foram dízimos e doações: R$ 39,1 milhões por dia, mais do que Sobral reserva para a segurança municipal no ano inteiro.</small></dd></div>
+        <div><dt>R$ 680 milhões</dt><dd>avaliação do Templo de Salomão, da Igreja Universal, na inauguração em 2014.<small>É o único ativo de igreja com valor publicado que localizei.</small></dd></div>
+        <div><dt>R$ 2,15 bilhões</dt><dd>dívida de igrejas inscrita na dívida ativa da União em 2022, segundo a Agência Pública.<small>Maiores: Igase, R$ 555 milhões; Mundial do Poder de Deus, R$ 136,5 milhões. Dívida fiscal é cobrança, e não condenação.</small></dd></div>
+      </dl>
+
+      <h3 class="label">⚖️ O contraste, na mesma régua</h3>
+      <div class="vizbox">
+        <div class="vizhead">
+          <div class="legend"><span><i class="sw-w"></i>Patrimônio privado ou ativo de igreja (estimativa)</span><span><i class="sw-p"></i>Gasto público de Sobral em 2025</span></div>
+          <button class="chip" type="button" id="lad-zoom" aria-pressed="false">Ampliar sem a 1ª linha</button>
+        </div>
+        <ol class="ladder" id="ladder" aria-label="Valores em reais, do maior para o menor"></ol>
+        <p class="note">Escala linear. Valores de 2013 em dólar foram convertidos pelo câmbio oficial de 18/01/2013 (R$ 2,0441) e não têm correção monetária; leia-os como ordem de grandeza. Patrimônio é estoque acumulado; gasto público é fluxo de um ano.</p>
+      </div>
+
+      <div class="tool">
+        <div class="tool-in">
+          <div class="field"><label for="eq-item"><span>Quanto tempo de Sobral cabe em…</span><b>escolha</b></label>
+            <select id="eq-item"></select></div>
+          <p class="note" id="eq-note"></p>
+          <p class="note">Sobral em 2025: saúde R$ 471,9 milhões e educação R$ 491,1 milhões (despesa empenhada, Tesouro Nacional); segurança municipal R$ 33,4 milhões (dotação da Secretaria da Segurança Cidadã e da Guarda Municipal na lei orçamentária). O policiamento é pago pelo Estado e não entra na conta. Por habitante: R$ 2.154 em saúde e R$ 2.242 em educação.</p>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <span class="label" id="eq-title">Equivalência</span>
+          <ul class="equiv" id="eq-list"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="folio" id="irir">
+    <div class="folio-mark"><span class="folio-num">FÓLIO VIII</span><span class="label">Índice</span></div>
+    <div class="folio-body">
+      <h2>🧮 IRIR: índice de risco documental</h2>
+      <p>O IRIR vai de 0 a 100 e ordena casos pelo que os documentos mostram. Caso abaixo de E3 não recebe nota. Magnitude comprovada só pontua com selo E5. Os valores carregados abaixo são um <strong>exemplo fictício</strong>.</p>
+      <div class="tool">
+        <div class="tool-in">
+          <div class="field"><label for="ir-ev"><span>Evidência</span><b>até 30</b></label>
+            <select id="ir-ev">
+              <option value="-1">Abaixo de E3 · não ranquear</option>
+              <option value="12">E3 · investigação oficial (12)</option>
+              <option value="21" selected>E4 · réu ou condenação recorrível (21)</option>
+              <option value="30">E5 · definitivo (30)</option>
+            </select></div>
+          <div class="field"><label for="ir-mag"><span>Magnitude comprovada</span><b id="ir-mag-o">0 de 20</b></label><input type="range" id="ir-mag" min="0" max="20" value="0" data-k="Magnitude comprovada"></div>
+          <div class="field"><label for="ir-vit"><span>Número de vítimas</span><b id="ir-vit-o">12 de 15</b></label><input type="range" id="ir-vit" min="0" max="15" value="12" data-k="Vítimas"></div>
+          <div class="field"><label for="ir-rei"><span>Reincidência</span><b id="ir-rei-o">8 de 10</b></label><input type="range" id="ir-rei" min="0" max="10" value="8" data-k="Reincidência"></div>
+          <div class="field"><label for="ir-ocu"><span>Ocultação (fachadas, laranjas)</span><b id="ir-ocu-o">8 de 10</b></label><input type="range" id="ir-ocu" min="0" max="10" value="8" data-k="Ocultação"></div>
+          <div class="field"><label for="ir-pub"><span>Verba pública envolvida</span><b id="ir-pub-o">0 de 5</b></label><input type="range" id="ir-pub" min="0" max="5" value="0" data-k="Verba pública"></div>
+          <div class="field"><label for="ir-pol"><span>Conflito político-financeiro</span><b id="ir-pol-o">1 de 5</b></label><input type="range" id="ir-pol" min="0" max="5" value="1" data-k="Conflito político"></div>
+          <div class="field"><label for="ir-opa"><span>Opacidade das contas</span><b id="ir-opa-o">4 de 5</b></label><input type="range" id="ir-opa" min="0" max="5" value="4" data-k="Opacidade"></div>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <span class="label">Resultado do exemplo</span>
+          <div class="score"><span class="num" id="ir-score">54</span><span class="of">de 100</span></div>
+          <span class="band" id="ir-band">Alto</span>
+          <div class="stack" id="ir-stack" role="img" aria-label="Composição da nota"></div>
+          <ul class="breakdown" id="ir-break"></ul>
+          <p class="note" id="ir-msg">Faixas de trabalho do projeto: 0 a 24 baixo, 25 a 49 moderado, 50 a 74 alto, 75 a 100 crítico. São referência de triagem e não critério legal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="folio" id="impacto">
+    <div class="folio-mark"><span class="folio-num">FÓLIO IX</span><span class="label">Reparação</span></div>
+    <div class="folio-body">
+      <h2>🌱 O que o dinheiro recuperado poderia financiar</h2>
+      <p>A ordem é fixa: primeiro a restituição às vítimas, depois o ressarcimento ao erário e o cumprimento das decisões. Só o que sobrar pode ir, por escolha da instituição, para projetos sociais. O simulador reparte um valor pelo modelo do projeto.</p>
+      <div class="tool">
+        <div class="tool-in">
+          <div class="field"><label for="im-val"><span>Valor comprovado e recuperado, em reais</span><b>exemplo</b></label><input type="number" id="im-val" min="0" step="100000" value="100000000" inputmode="numeric"></div>
+          <span class="stamp">Simulação econômica · não é destinação real</span>
+          <p class="note">O modelo de repartição é uma proposta do projeto. Para converter cada fatia em leitos, refeições ou hectares, o prompt-mestre exige custo unitário atual com fonte.</p>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <span class="label" id="im-total">Repartição de R$ 100.000.000</span>
+          <ul class="alloc" id="im-list"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="folio" id="denunciar">
+    <div class="folio-mark"><span class="folio-num">FÓLIO X</span><span class="label">Ação</span></div>
+    <div class="folio-body">
+      <h2>📣 Onde denunciar</h2>
+      <p>Guarde mensagens, áudios, comprovantes e nomes de contas antes de qualquer conversa com quem pediu o dinheiro.</p>
+      <ul class="channels">
+        <li><b>🏦 Seu banco, no mesmo dia</b><span>Se o pagamento foi por PIX, peça a contestação pelo Mecanismo Especial de Devolução (MED) o quanto antes.</span></li>
+        <li><b>🚓 Polícia Civil do seu estado</b><span>Delegacia ou delegacia eletrônica. Registre boletim de ocorrência por estelionato.</span></li>
+        <li><b>⚖️ Ministério Público estadual</b><span>Ouvidoria ou promotoria. Indicado quando há muitas vítimas, idosos ou consumidores lesados.</span></li>
+        <li><b>🏛️ Ministério Público Federal</b><span>Sala de Atendimento ao Cidadão. Para verba federal, evasão de divisas e crimes financeiros.</span></li>
+        <li><b>🔎 CGU, pela plataforma Fala.BR</b><span>Para desvio ou mau uso de dinheiro público federal.</span></li>
+        <li><b>📞 Disque 100</b><span>Quando a vítima é pessoa idosa ou está em situação de vulnerabilidade.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="folio" id="prompt">
+    <div class="folio-mark"><span class="folio-num">FÓLIO XI</span><span class="label">Ferramentas</span></div>
+    <div class="folio-body">
+      <h2>🧠 Prompt-mestre e carta à instituição</h2>
+      <p>O prompt transforma qualquer assistente de IA em auditor com as regras desta página. A carta pede manifestação formal sem acusar.</p>
+      <div class="copybox">
+        <div class="copyhead"><h3>Prompt-mestre v2</h3><span class="count" id="prompt-count">7.110 de 7.799 caracteres</span><button class="btn" type="button" data-copy="prompt-text">Copiar prompt</button></div>
+        <textarea class="copy" id="prompt-text" readonly spellcheck="false" aria-label="Texto do prompt-mestre"># PROMPT-MESTRE v2 — AUDITORIA EVANGÉLICA BRASIL 360
+
+## MISSÃO
+Atue como equipe de auditoria investigativa, jornalismo de dados, compliance e análise jurídica. Catalogue e analise casos de fraude financeira ligados a organizações e líderes evangélicos no Brasil: estelionato contra fiéis, lavagem de dinheiro, corrupção, desvio de doações ou de verba pública, evasão de divisas, empresas de fachada, conflito de interesses e captação abusiva. O alvo são PRÁTICAS ILÍCITAS DOCUMENTADAS, nunca a fé, os fiéis ou o evangelicalismo.
+
+## REGRA DE OURO
+Ninguém é "corrupto" sem decisão judicial que sustente a palavra. Escreva o que o documento diz, com o verbo do estágio: "é investigado", "foi denunciado", "é réu", "foi condenado em 1ª instância", "foi absolvido". Na dúvida entre afirmar e sinalizar, sinalize.
+
+## ESCALA DE EVIDÊNCIA
+E5 = condenação definitiva (trânsito em julgado), confissão em juízo ou auditoria oficial conclusiva. E4 = denúncia recebida (réu), indiciamento ou condenação ainda recorrível. E3 = investigação oficial, inquérito, busca e apreensão, prisão cautelar ou bloqueio. E2 = indício documental não confirmado. E1 = alegação ou rumor; não entra em ranking nem em painel nominal. D = desfecho favorável à defesa (absolvição, arquivamento, prescrição, trancamento, rejeição da denúncia); registre com o mesmo destaque da acusação. Todo registro leva nível, órgão, número do processo quando público, fonte com URL e DATA DE VERIFICAÇÃO. Situação com mais de 90 dias sem checagem: marcar [REVERIFICAR] antes de publicar.
+
+## DINHEIRO: QUATRO COLUNAS QUE NUNCA SE SOMAM
+1) movimentação investigada; 2) valor bloqueado ou sequestrado; 3) prejuízo ou arrecadação alegados pela acusação ou pelas vítimas; 4) dano comprovado por decisão ou auditoria. Acrescente valor recuperado e valor restituído. "IRREGULARIDADE COMPROVADA" soma apenas a coluna 4. Nunca converta moeda nem corrija valores sem dizer índice e data.
+
+## QUEM RESPONDE PELO QUÊ
+Denominação ≠ convenção ≠ CNPJ local ≠ dirigente ≠ familiar. Ato de pessoa ou filial não se atribui à denominação inteira sem prova de benefício ou comando institucional. Cargo político de um religioso gera caso político-individual, não "corrupção da igreja". Parentesco, amizade ou sociedade, isolados, não provam benefício ilícito. Classifique cada nome: beneficiário comprovado; beneficiário apontado pela acusação; operador ou intermediário; pessoa apenas relacionada.
+
+## VÍTIMAS
+Descreva vulnerabilidade (confiança na autoridade religiosa, urgência, dívida, luto, doença, idade, baixa renda), nunca falta de inteligência. Não exponha nome, imagem ou dado pessoal de vítima, fiel ou menor. Informe sempre os canais oficiais de denúncia.
+
+## ANATOMIA DO ESQUEMA
+Para cada caso, mapeie só as etapas documentadas: autoridade e confiança → promessa (cura, prosperidade, retorno financeiro) → prova social e recrutadores → urgência e sigilo → captação (PIX, depósito, bens, "taxas para liberar valores") → pulverização (contas, laranjas, empresas de fachada) → ocultação de patrimônio → blindagem (intimidação, discurso de perseguição, troca de CNPJ) → reincidência. Etapa não documentada fica em branco.
+
+## CATÁLOGO
+Cadastro progressivo, começando pelas maiores denominações e pelas entidades que aparecem em fonte oficial: nome, CNPJ(s), convenção, sede, dirigentes, empresas, OSCs e mídia ligadas, verbas públicas, contratos, emendas, imunidade tributária, prestação de contas, auditoria externa e projetos sociais. Cada CNPJ e cada processo em registro próprio.
+
+## BANCO DE CASOS
+Campos: caso; pessoa ou entidade; função; período; processo; órgão; crimes imputados; nível E; situação atual; as quatro colunas de dinheiro; vítimas alegadas; beneficiários por classe; versão da defesa; desfecho; atribuível à denominação? (sim, não, não demonstrado); fontes; data de verificação; pendências.
+
+## RANKINGS E IRIR
+Dois rankings separados: (1) RISCO DOCUMENTAL, só casos E3–E5; (2) DANO COMPROVADO, só E5. IRIR 0–100 = evidência 30 + magnitude comprovada 20 + vítimas 15 + reincidência 10 + ocultação 10 + verba pública 5 + conflito político-financeiro 5 + opacidade 5. Caso abaixo de E3 não recebe IRIR. Desfecho D zera o componente evidência daquela imputação. Nunca usar o título "igrejas mais corruptas"; usar "casos com maior risco documental entre os registros analisados".
+
+## FONTES
+Primárias: STF, STJ, TSE e TREs, TRFs e TJs, MPF e MPs estaduais, PF e Polícias Civis, CGU, TCU e TCEs, Portal da Transparência, Receita e COAF quando públicos, Diários Oficiais, cadastro de CNPJ, IBGE. Imprensa é secundária: confirmar no documento primário e dizer quando não foi possível. Sem fonte localizada: [NÃO LOCALIZADO], sem completar por suposição. Não inventar processo, valor, citação ou link.
+
+## TRANSPARÊNCIA E SINAIS DE ALERTA
+Avalie balanço publicado, auditoria externa, conselho fiscal independente, remuneração de dirigentes, transações com partes relacionadas, imóveis, empresas e destino das doações. Sinais para auditoria, não prova de crime: patrimônio pessoal misturado ao institucional; sucessão familiar sem controle; fornecedor ligado a dirigente; promessa de retorno financeiro atrelada à fé; pedido de sigilo; campanha de oferta com pressão ou ameaça espiritual; verba pública sem prestação de contas.
+
+## REPARAÇÃO E IMPACTO
+Ordem obrigatória: restituição às vítimas → ressarcimento ao erário → cumprimento das decisões → só então destinação voluntária. Em /IMPACTO, simule o que o valor comprovado financiaria (saúde 25%, combate à fome 20%, educação 15%, saneamento 15%, meio ambiente e Caatinga 10%, proteção animal 5%, pesquisa 5%, apoio a vítimas 5%), com custos unitários atuais e fonte. Rotular: SIMULAÇÃO ECONÔMICA, NÃO DESTINAÇÃO REAL.
+
+## COMUNICAÇÃO À INSTITUIÇÃO
+Para caso E3–E5, redigir carta individual, factual e respeitosa: citar processo e fonte; distinguir alegação de condenação; pedir manifestação, demonstrações financeiras e medidas corretivas; registrar a resposta junto do caso. Nunca ameaçar, constranger, exigir pagamento ou insinuar divulgação como pressão.
+
+## LIMITES
+Somente meios legais e públicos. Não invadir sistemas, não obter dado sigiloso, não divulgar endereço, telefone ou família de ninguém, não organizar assédio ou boicote a fiéis, não produzir peça de ódio religioso. Erro apontado corrige-se em público, com data. Toda pessoa citada tem direito de resposta.
+
+## FORMATO DE SAÍDA
+RESUMO EM 3 LINHAS → QUADRO DO CASO → DINHEIRO (4 colunas) → QUEM RESPONDE → ESTÁGIO JUDICIAL E DEFESA → ANATOMIA → IRIR → TRANSPARÊNCIA → IMPACTO → PENDÊNCIAS → FONTES COM DATA. Português claro, tabelas compactas, sem adjetivo que o documento não sustente.
+
+## COMANDOS
+/AUDITORIA [nome] · /IGREJA [nome] · /LÍDER [nome] · /CASO [nome] · /DINHEIRO [nome] · /REDE [nome] · /ANATOMIA [caso] · /TRANSPARÊNCIA [nome] · /RANKING · /IMPACTO R$X · /EMAIL [instituição] · /VERIFICAR [caso] · /PENDÊNCIAS
+
+## REGRA FINAL
+Fé não elimina fiscalização. Fiscalização séria exige contraditório, presunção de inocência, rastro documental e correção pública de erros. O que não estiver provado é dito como não provado.</textarea>
+        <span class="status" id="prompt-text-status" aria-live="polite"></span>
+      </div>
+      <div class="copybox">
+        <div class="copyhead"><h3>✉️ Carta institucional</h3><span class="count">Preencha os campos entre colchetes</span><button class="btn" type="button" data-copy="email-text">Copiar carta</button></div>
+        <textarea class="copy" id="email-text" readonly spellcheck="false" aria-label="Texto da carta institucional">Assunto: Pedido de manifestação — [PROCESSO/INQUÉRITO] — Projeto Auditoria Evangélica Brasil 360
+
+À Direção da [NOME DA INSTITUIÇÃO],
+
+Escrevo no contexto de um projeto independente de acompanhamento de transparência, integridade financeira, responsabilidade social e utilização de recursos por organizações religiosas brasileiras.
+
+Foram identificadas informações públicas relacionadas a [PROCESSO/INQUÉRITO/DECISÃO], conduzido por [ÓRGÃO], envolvendo [DESCRIÇÃO OBJETIVA]. A situação registrada em [DATA DA VERIFICAÇÃO] é [INVESTIGAÇÃO / DENÚNCIA / AÇÃO PENAL / CONDENAÇÃO RECORRÍVEL / CONDENAÇÃO DEFINITIVA / ABSOLVIÇÃO / ARQUIVAMENTO / PRESCRIÇÃO]. Fonte: [URL].
+
+Não pretendemos antecipar conclusões judiciais nem atribuir à instituição responsabilidade que não esteja demonstrada documentalmente. Por esse motivo, solicitamos manifestação formal da entidade e, quando disponíveis:
+
+- demonstrações financeiras e relatórios de auditoria;
+- informação sobre a destinação de dízimos, ofertas e doações;
+- estrutura de governança e conselho fiscal;
+- transações relevantes com dirigentes, familiares ou empresas relacionadas;
+- investimentos realizados em assistência social, saúde, educação, combate à pobreza e proteção ambiental;
+- medidas adotadas em resposta aos fatos objeto do processo citado.
+
+Sugerimos também a revisão dos mecanismos de solicitação de dízimos e ofertas, para assegurar que as contribuições sejam voluntárias, transparentes e acompanhadas de informação clara sobre sua destinação, especialmente quando dirigidas a pessoas em situação econômica vulnerável.
+
+Caso sejam definitivamente reconhecidos valores obtidos ou utilizados de forma ilícita, entendemos que a prioridade deve ser o cumprimento integral das determinações judiciais, incluindo restituição às vítimas, ressarcimento ao erário e reparação dos danos.
+
+Após o cumprimento dessas obrigações, sugerimos que a instituição considere voluntariamente ampliar a destinação transparente de recursos disponíveis para projetos humanitários, combate à pobreza, saúde, alimentação, educação, saneamento, proteção de pessoas vulneráveis, recuperação ambiental, conservação da fauna e da flora e outras iniciativas de impacto social mensurável.
+
+A resposta institucional será registrada junto das demais evidências, garantindo contraditório e permitindo a correção de eventuais informações inexatas.
+
+Atenciosamente,
+
+[SEU NOME]
+Projeto Auditoria Evangélica Brasil 360
+[CONTATO PARA RESPOSTA]</textarea>
+        <span class="status" id="email-text-status" aria-live="polite"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="folio" id="pendencias">
+    <div class="folio-mark"><span class="folio-num">FÓLIO XII</span><span class="label">Limites</span></div>
+    <div class="folio-body">
+      <h2>🚧 O que esta verificação não fechou</h2>
+      <ul class="pend">
+        <li><b>Falso Profeta</b><span>Não foi localizado o julgamento do recurso contra a sentença de Goiás nem uma sentença no processo do Distrito Federal.</span></li>
+        <li><b>Hades</b><span>Os R$ 53 milhões aparecem nas fontes como valor arrecadado segundo a denúncia. A versão de que seria valor sequestrado pela Justiça não foi confirmada; a página do MPRJ estava fora do ar.</span></li>
+        <li><b>Tris in Idem</b><span>Não foi localizado o desfecho da ação penal.</span></li>
+        <li><b>Renascer</b><span>O trânsito em julgado da condenação por evasão de divisas aparece em material de terceiros; falta ler o acórdão do TRF-3.</span></li>
+        <li><b>Patrimônio</b><span>O valor de R$ 10,3 bilhões vem de imprensa que reproduz a lista da Forbes; a lista original não foi lida. Os valores de 2013 não têm atualização.</span></li>
+        <li><b>Sobral</b><span>A execução orçamentária não traz a função segurança separada; usei a dotação da lei orçamentária de 2025. Saúde e educação são despesa empenhada.</span></li>
+        <li><b>Fontes</b><span>Parte dos fatos vem de imprensa que reproduz decisões. O passo seguinte é conferir cada processo no site do tribunal.</span></li>
+        <li><b>Amostra</b><span>Cinco casos não medem um universo de 47,4 milhões de pessoas nem permitem ranking de denominações.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="folio" id="fontes">
+    <div class="folio-mark"><span class="folio-num">FÓLIO XIII</span><span class="label">Fontes</span></div>
+    <div class="folio-body">
+      <h2>📚 Fontes gerais</h2>
+      <ul class="sources">
+        <li><a href="https://agenciadenoticias.ibge.gov.br/en/agencia-news/43602-2022-census-catholics-remain-in-decline-protestants-and-persons-with-no-religion-increase-in-the-country.html" target="_blank" rel="noopener noreferrer">IBGE, Agência de Notícias: Censo 2022, religiões, resultados preliminares da amostra</a></li>
+        <li><a href="https://agenciagov.ebc.com.br/noticias/202506/censo-2022-catolicos-seguem-em-queda-evangelicos-e-sem-religiao-crescem-no-pais" target="_blank" rel="noopener noreferrer">Agência Gov, jun/2025: evangélicos são 26,9% (47,4 milhões)</a></li>
+        <li><a href="https://www.correiobraziliense.com.br/cidades-df/2023/12/amp/6663864-preso-mais-um-integrante-da-organizacao-criminosa-de-pastor-osorio.html" target="_blank" rel="noopener noreferrer">Correio Braziliense, dez/2023: falso banco digital e nova prisão</a></li>
+        <li><a href="https://www.maisgoias.com.br/cidades/reu-em-goias-pastor-que-prometeu-quatrilhoes-e-denunciado-por-mp-de-sao-paulo/" target="_blank" rel="noopener noreferrer">Mais Goiás: prisão de 2018 e prejuízo estimado em Goiás</a></li>
+        <li><a href="https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo?an_exercicio=2025&amp;nr_periodo=6&amp;co_tipo_demonstrativo=RREO&amp;no_anexo=RREO-Anexo%2002&amp;co_esfera=M&amp;id_ente=2312908" target="_blank" rel="noopener noreferrer">Tesouro Nacional, Siconfi: despesa de Sobral por função, 6º bimestre de 2025 (dados brutos)</a></li>
+        <li><a href="https://www.sobral.ce.gov.br/diario/public/files/diario/DOM1966_18-12-2024.pdf" target="_blank" rel="noopener noreferrer">Diário Oficial de Sobral, 18/12/2024: Decreto 3.587, limites da lei orçamentária de 2025 (Lei 2.533)</a></li>
+        <li><a href="https://portaltailandia.com/noticia/bispo-edir-macedo-entra-na-lista-da-forbes-com-fortuna-de-r-10-bilhoes/" target="_blank" rel="noopener noreferrer">Portal Tailândia, 04/09/2026: Edir Macedo na lista Forbes 2026</a></li>
+        <li><a href="https://www.infomoney.com.br/?p=214343" target="_blank" rel="noopener noreferrer">InfoMoney, 18/01/2013: os cinco pastores mais ricos segundo a Forbes</a></li>
+        <li><a href="https://forbes.com.br/colunas/2019/05/nota-de-esclarecimento/" target="_blank" rel="noopener noreferrer">Forbes Brasil, 03/05/2019: nota de esclarecimento sobre Silas Malafaia</a></li>
+        <li><a href="https://reformapolitica.org.br/2015/03/06/igrejas-arrecadam-mais-de-r-20-bilhoes-no-brasil-em-um-ano/" target="_blank" rel="noopener noreferrer">Folha de S.Paulo, reproduzida por Reforma Política: R$ 20,6 bilhões arrecadados em 2011</a></li>
+        <li><a href="https://exame.com/brasil/igreja-universal-inaugura-maior-complexo-religioso-da-america-latina/" target="_blank" rel="noopener noreferrer">Exame, 2014: Templo de Salomão avaliado em R$ 680 milhões</a></li>
+        <li><a href="https://apublica.org/2022/11/divida-de-igrejas-com-a-uniao-dobrou-durante-governo-bolsonaro/" target="_blank" rel="noopener noreferrer">Agência Pública, 16/11/2022: dívida de igrejas com a União</a></li>
+        <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" target="_blank" rel="noopener noreferrer">Banco Central: cotação oficial do dólar em 18/01/2013 (R$ 2,0441)</a></li>
+        <li>As fontes de cada caso estão no próprio cartão, em “Fontes do caso”.</li>
+      </ul>
+      <div class="colophon">
+        <p>⚖️ Esta página reúne informação pública com finalidade de transparência e educação. Não substitui decisão judicial nem orientação de advogado. Toda pessoa citada é presumida inocente até decisão definitiva.</p>
+        <p>✍️ Direito de resposta e correção: erro apontado com documento é corrigido com data de alteração. Envie pelas <a href="https://github.com/aldenirfilho/AUDITORIA-E-TRANSPAR-NCIA-DE-IGREJAS-CRISTAS-AO-LONGO-DAS-ERAS-/issues" target="_blank" rel="noopener noreferrer">issues do repositório</a> ou veja o <a href="../metodo.html#pacto">pacto editorial</a>.</p>
+        <p>🛡️ Parte do Projeto 360X: <a href="../">Transparência 360X · Igrejas</a> · <a href="https://aldenirfilho.github.io/aldenirmed89/ecossistema/" target="_blank" rel="noopener noreferrer">Ecossistema 360X</a>.</p>
+        <p>🕯️ Situação dos casos verificada em 6 de outubro de 2026 · publicado em 22 de outubro de 2026.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  var fmt = new Intl.NumberFormat('pt-BR');
+
+  /* sinais de alerta */
+  var flags = document.getElementById('flags'), fv = document.getElementById('flag-verdict');
+  function flagUpdate(){
+    var n = flags.querySelectorAll('input:checked').length;
+    fv.dataset.n = n >= 2 ? '2' : String(n);
+    fv.textContent = n === 0 ? 'Nenhum sinal marcado.'
+      : n === 1 ? '1 sinal: pare e peça uma segunda opinião a alguém de fora do grupo antes de transferir qualquer valor.'
+      : n + ' sinais: não transfira nada. Guarde mensagens e comprovantes e procure um dos canais do Fólio X.';
+  }
+  flags.addEventListener('change', flagUpdate);
+  flagUpdate();
+
+  /* filtro de casos */
+  var chips = document.querySelectorAll('.chip'), cases = document.querySelectorAll('.case');
+  chips.forEach(function(c){
+    c.addEventListener('click', function(){
+      var f = c.dataset.f;
+      chips.forEach(function(x){ x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
+      cases.forEach(function(a){ a.hidden = !(f === 'all' || a.dataset.tags.split(' ').indexOf(f) !== -1); });
+    });
+  });
+
+  /* IRIR */
+  var ev = document.getElementById('ir-ev'), mag = document.getElementById('ir-mag');
+  var sliders = Array.prototype.slice.call(document.querySelectorAll('#irir input[type=range]'));
+  function irir(evPts, parts){ return evPts < 0 ? null : evPts + parts.reduce(function(a,b){ return a + b; }, 0); }
+  function irirUpdate(){
+    var evPts = Number(ev.value), isE5 = evPts === 30;
+    mag.disabled = !isE5;
+    var rows = [['Evidência', Math.max(evPts, 0)]], parts = [];
+    sliders.forEach(function(s){
+      var v = (s === mag && !isE5) ? 0 : Number(s.value);
+      document.getElementById(s.id + '-o').textContent = v + ' de ' + s.max;
+      parts.push(v); rows.push([s.dataset.k, v]);
+    });
+    var total = irir(evPts, parts);
+    var score = document.getElementById('ir-score'), band = document.getElementById('ir-band');
+    var stack = document.getElementById('ir-stack'), brk = document.getElementById('ir-break');
+    stack.textContent = ''; brk.textContent = '';
+    if (total === null){
+      score.textContent = '—'; band.textContent = 'Sem IRIR';
+      band.style.color = 'var(--e12)';
+      var li = document.createElement('span'); li.textContent = 'Caso abaixo de E3 fica em apuração e não entra em ranking.';
+      li.style.gridColumn = '1 / -1'; brk.appendChild(li);
+      return;
+    }
+    score.textContent = total;
+    var b = total >= 75 ? ['Crítico','var(--e5)'] : total >= 50 ? ['Alto','var(--e4)'] : total >= 25 ? ['Moderado','var(--e3)'] : ['Baixo','var(--d)'];
+    band.textContent = b[0]; band.style.color = b[1];
+    rows.forEach(function(r){
+      var seg = document.createElement('i'); seg.style.width = r[1] + '%'; seg.title = r[0] + ': ' + r[1]; stack.appendChild(seg);
+      var a = document.createElement('span'), c = document.createElement('span');
+      a.textContent = r[0]; c.textContent = r[1]; brk.appendChild(a); brk.appendChild(c);
+    });
+  }
+  ev.addEventListener('change', irirUpdate);
+  sliders.forEach(function(s){ s.addEventListener('input', irirUpdate); });
+  irirUpdate();
+
+  /* simulador de impacto */
+  var model = [['🏥 Saúde',25],['🍚 Combate à fome e à pobreza',20],['📖 Educação',15],['🚰 Saneamento',15],['🌵 Meio ambiente e Caatinga',10],['🐾 Proteção animal',5],['🔬 Pesquisa',5],['🫂 Apoio a vítimas',5]];
+  var imVal = document.getElementById('im-val'), imList = document.getElementById('im-list'), imTotal = document.getElementById('im-total');
+  function impactUpdate(){
+    var v = Math.max(0, Number(imVal.value) || 0);
+    imTotal.textContent = 'Repartição de R$ ' + fmt.format(Math.round(v));
+    imList.textContent = '';
+    model.forEach(function(m){
+      var li = document.createElement('li'), n = document.createElement('span'), a = document.createElement('span'), bar = document.createElement('span'), fill = document.createElement('i');
+      n.textContent = m[0] + ' · ' + m[1] + '%';
+      a.className = 'amt'; a.textContent = 'R$ ' + fmt.format(Math.round(v * m[1] / 100));
+      bar.className = 'bar'; fill.style.width = (m[1] / 25 * 100) + '%'; bar.appendChild(fill);
+      li.appendChild(n); li.appendChild(a); li.appendChild(bar); imList.appendChild(li);
+    });
+  }
+  imVal.addEventListener('input', impactUpdate);
+  impactUpdate();
+
+  /* patrimônio x orçamento: valores em milhões de reais */
+  var PTAX13 = 2.0441;
+  var S = { saude: 471.89173497, educ: 491.08843092, seg: 33.39702134, total: 1395.92126512 };
+  S.tres = S.saude + S.educ + S.seg;
+  var rows = [
+    { k:'macedo', n:'Edir Macedo e família', s:'Forbes Brasil 2026 · atual', v:10300, c:'w' },
+    { k:'total', n:'Sobral: despesa total da prefeitura', s:'2025 · empenhado', v:S.total, c:'p' },
+    { k:'tres', n:'Sobral: saúde + educação + segurança', s:'2025', v:S.tres, c:'p' },
+    { k:'templo', n:'Templo de Salomão (Universal)', s:'avaliação de 2014 · sem correção', v:680, c:'w' },
+    { k:'educ', n:'Sobral: educação', s:'2025 · empenhado', v:S.educ, c:'p' },
+    { k:'saude', n:'Sobral: saúde', s:'2025 · empenhado', v:S.saude, c:'p' },
+    { k:'valdemiro', n:'Valdemiro Santiago', s:'Forbes 2013 · US$ 220 mi · histórico', v:220*PTAX13, c:'w' },
+    { k:'soares', n:'R. R. Soares', s:'Forbes 2013 · US$ 125 mi · histórico', v:125*PTAX13, c:'w' },
+    { k:'hernandes', n:'Estevam e Sônia Hernandes', s:'Forbes 2013 · US$ 65 mi · histórico', v:65*PTAX13, c:'w' },
+    { k:'seg', n:'Sobral: segurança municipal', s:'2025 · dotação', v:S.seg, c:'p' },
+    { k:'malafaia', n:'Silas Malafaia', s:'valor corrigido pela Forbes · US$ 4,5 mi', v:4.5*PTAX13, c:'w' }
+  ];
+  function brl(m){ return m >= 1000 ? 'R$ ' + (m/1000).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}) + ' bi'
+                                    : 'R$ ' + m.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}) + ' mi'; }
+  var ladder = document.getElementById('ladder'), zoomBtn = document.getElementById('lad-zoom'), zoomed = false;
+  function drawLadder(){
+    var list = zoomed ? rows.slice(1) : rows, max = list[0].v;
+    ladder.textContent = '';
+    list.forEach(function(r){
+      var li = document.createElement('li'), who = document.createElement('span'), sm = document.createElement('small'),
+          tr = document.createElement('span'), bar = document.createElement('span'), val = document.createElement('span');
+      who.className = 'who'; who.textContent = r.n; sm.textContent = r.s; who.appendChild(sm);
+      tr.className = 'track'; bar.className = 'bar ' + r.c; bar.style.setProperty('--p', (r.v / max).toFixed(5));
+      val.className = 'val'; val.textContent = brl(r.v);
+      li.title = r.n + ': ' + brl(r.v) + ' (' + r.s + ')';
+      tr.appendChild(bar); tr.appendChild(val); li.appendChild(who); li.appendChild(tr); ladder.appendChild(li);
+    });
+  }
+  zoomBtn.addEventListener('click', function(){
+    zoomed = !zoomed; zoomBtn.setAttribute('aria-pressed', zoomed ? 'true' : 'false');
+    zoomBtn.textContent = zoomed ? 'Voltar à escala completa' : 'Ampliar sem a 1ª linha'; drawLadder();
+  });
+  drawLadder();
+
+  var eqItems = [
+    { n:'Patrimônio de Edir Macedo e família (Forbes 2026)', v:10300, note:'Estimativa atual. Segundo a Forbes, vem de mídia e banco e não inclui bens da igreja.' },
+    { n:'Arrecadação das entidades religiosas em 2011 (todas as religiões)', v:20600, note:'Fluxo de um ano, de todas as religiões, em valores de 2011 sem correção. Leia como ordem de grandeza.' },
+    { n:'Dívida de igrejas com a União (2022)', v:2150, note:'Dívida fiscal inscrita, em valores de 2022. É cobrança, e não condenação.' },
+    { n:'Templo de Salomão (avaliação de 2014)', v:680, note:'Valor de 2014 sem correção. Leia como ordem de grandeza.' },
+    { n:'Valdemiro Santiago (Forbes 2013)', v:220*PTAX13, note:'Estimativa de 2013 convertida pelo câmbio da época, sem correção. Leia como ordem de grandeza.' },
+    { n:'R. R. Soares (Forbes 2013)', v:125*PTAX13, note:'Estimativa de 2013 convertida pelo câmbio da época, sem correção. Leia como ordem de grandeza.' },
+    { n:'Estevam e Sônia Hernandes (Forbes 2013)', v:65*PTAX13, note:'Estimativa de 2013 convertida pelo câmbio da época, sem correção. Leia como ordem de grandeza.' },
+    { n:'Silas Malafaia (valor corrigido pela Forbes)', v:4.5*PTAX13, note:'3% dos US$ 150 milhões publicados em 2013, conforme a correção de 2019.' }
+  ];
+  function dur(years){
+    if (years >= 2) return years.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}) + ' anos';
+    var months = years * 12;
+    if (months >= 2) return months.toLocaleString('pt-BR',{maximumFractionDigits:1}) + ' meses';
+    var days = Math.round(years * 365);
+    return days + (days === 1 ? ' dia' : ' dias');
+  }
+  var eqSel = document.getElementById('eq-item'), eqList = document.getElementById('eq-list'), eqNote = document.getElementById('eq-note'), eqTitle = document.getElementById('eq-title');
+  eqItems.forEach(function(it, i){ var o = document.createElement('option'); o.value = i; o.textContent = it.n; eqSel.appendChild(o); });
+  function eqUpdate(){
+    var it = eqItems[Number(eqSel.value)];
+    eqTitle.textContent = brl(it.v) + ' equivalem a';
+    eqNote.textContent = it.note;
+    eqList.textContent = '';
+    [['de toda a saúde de Sobral', S.saude], ['de toda a educação de Sobral', S.educ], ['da segurança municipal de Sobral', S.seg], ['de toda a despesa da prefeitura', S.total]].forEach(function(x){
+      var li = document.createElement('li'), b = document.createElement('b'), s = document.createElement('span');
+      b.textContent = dur(it.v / x[1]); s.textContent = x[0]; li.appendChild(b); li.appendChild(s); eqList.appendChild(li);
+    });
+  }
+  eqSel.addEventListener('change', eqUpdate); eqUpdate();
+
+  /* copiar */
+  document.getElementById('prompt-count').textContent = fmt.format(document.getElementById('prompt-text').value.length) + ' de 7.799 caracteres';
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var ta = document.getElementById(btn.dataset.copy), st = document.getElementById(btn.dataset.copy + '-status');
+      function fallback(){ ta.focus(); ta.select(); st.textContent = 'Texto selecionado. Copie com Ctrl+C ou Cmd+C.'; }
+      try {
+        navigator.clipboard.writeText(ta.value).then(function(){ st.textContent = 'Copiado.'; }, fallback);
+      } catch (e) { fallback(); }
+    });
+  });
+})();
+</script>
+</body>
+</html>

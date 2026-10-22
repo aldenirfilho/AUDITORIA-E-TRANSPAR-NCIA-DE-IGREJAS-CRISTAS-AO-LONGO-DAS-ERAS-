@@ -96,6 +96,7 @@ FOOT = """</main>
         <li><a href="./impacto.html">Impacto social e ambiental</a></li>
         <li><a href="./casos.html">Fé, dinheiro e enriquecimento</a></li>
         <li><a href="./panorama.html">Trinta dossiês, 1926–2026</a></li>
+        <li><a href="./auditoria-evangelica-360/">Auditoria Evangélica Brasil 360</a></li>
       </ul>
     </div>
     <div>
